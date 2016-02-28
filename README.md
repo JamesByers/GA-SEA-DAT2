@@ -75,7 +75,7 @@ Tuesday | Thursday
  &nbsp;
 
 
-
+<!--
 -----
 
 ### Class 1: Introduction to Data Science
@@ -752,3 +752,4 @@ Tuesday | Thursday
 	* K-means
 	* DBSCAN
 	* [Hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/)
+-->
