@@ -25,8 +25,15 @@ Tuesday | Thursday
 1/19: [??L21 Bonus Topics](#class-21-bonus-topics) | 1/21: ?? L22 **Final Project Presentations**
 &nbsp;
 ## Submission Forms
-### [      Exit ticket form] (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
-### [      Homework and project submissions form] (https://docs.google.com/forms/d/1S82LIibhiG2olZQb2C7iboqN5rb8wB6mQLFBg992eh4/viewform?usp=send_form)
+
+### [      Exit ticket form]  (Add link to DAT2 exit ticket)
+<!--
+(https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
+-->
+### [      Homework and project submissions form] (Add link to DAT2 submission form)
+<!--
+(https://docs.google.com/forms/d/1S82LIibhiG2olZQb2C7iboqN5rb8wB6mQLFBg992eh4/viewform?usp=send_form)
+-->
 * [Homework Evaluation Criteria](https://docs.google.com/spreadsheets/d/19XaVllCETEWyROSMHIShVWgUqK-kbZkvSeCzjK7yezI/edit?usp=sharing)
  &nbsp;
 
