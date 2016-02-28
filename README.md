@@ -53,9 +53,9 @@ Tuesday | Thursday
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Welcome to Data Science
 
 <a name="class-1"></a>
-### Class 1: Introduction to Data Science - Lets get rolling!
+### Class 1: Lets get rolling! - Introduction to Data Science
 
-**STUDENT PRE-WORK**
+**Student Prework**
 *Before this lesson, you should already be able to:*
 - Define basic data types used in object-oriented programming
 - Recall the Python syntax for lists, dictionaries, and functions
