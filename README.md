@@ -53,7 +53,7 @@ Tuesday | Thursday
 -----
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Welcome to Data Science
 
-### Class 1  Let's get rolling! Introduction to Data Science
+### Class 1 Let's get rolling! Introduction to Data Science
 
 After this lesson, you will be able to:
 
@@ -81,7 +81,6 @@ DS
 ### Class 1  older: Introduction to Data Science
 
 **By the end of this lesson you will be able to:**
-
 * Describe what data science is and the types of problems it can solve
 * Name at least three types of data
 * Describe at least two of the elements of the Final project requirements
