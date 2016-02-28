@@ -1,7 +1,7 @@
 ### SEA-DAT1 course repository
 
 Materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/seattle/) in Seattle, WA
-(10/27/15 - 1/21/16)
+(3/15/16 - 5/19/16)
 
 **Instructor:** [Jim Byers](https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI)
 
@@ -9,20 +9,19 @@ Materials for [General Assembly's Data Science course](https://generalassemb.ly/
 
 Tuesday | Thursday
 --- | ---
-**2015** | 
-| 10/27: [L01 Introduction to Data Science](#class-1-introduction-to-data-science) | 10/29: [L02 Command Line, Version Control](#class-2-command-line-and-version-control)
-11/3: [L03 Reading and preparing data](#class-3-reading-and-preparing-data) | 11/5: [L04 Exploratory Data Analysis](#class-4-exploratory-data-analysis)
-11/10: [L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 11/12: [L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
-11/17: [L07 Fetching Data](#class-7-fetching-data) | 11/19: [L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
-**Monday** 11/23: [L09 Basic Model Evaluation](#class-9-basic-model-evaluation) | 11/26 (Holiday/ No class) |
-12/1: [L10 Linear Regression](#class-10-linear-regression) | 12/3:  L11 **First Project Presentation** 
-12/8: [L12 Logistic Regression](#class-12-logistic-regression) | 12/10: [L13 Advanced Model Evaluation](#class-13-advanced-model-evaluation)
-12/15: [L14 Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data) | 12/17: [L15  Natural Language Processing](#class-15-natural-language-processing)
-12/22: [L16 Neural Networks and SVC](#class-16-neural-networks-and-svc), **Draft Paper Due** | 12/24: (Holiday/ No class)
-12/29: (Holiday/ No class) | 12/31: (Holiday/ No class)
-**2016** |
-1/5: [L17 Review and refresh](#class-17-review-and-refresh) | 1/7:[ L18 Regularization and<br>Clustering](#class-18-regularization-and-clustering) 
-1/12: [L19 Decision Trees](#class-19-decision-trees), **Peer Review Due** | 1/14: [L20 Ensembling, Bagging and Random Forests](#class-20-ensembling)
+**2016** | 
+| 3/15: [??L01 Introduction to Data Science](#class-1-introduction-to-data-science) | 3/17: [??L02 Command Line, Version Control](#class-2-command-line-and-version-control)
+3/22: [??L03 Reading and preparing data](#class-3-reading-and-preparing-data) | 3/24: [??L04 Exploratory Data Analysis](#class-4-exploratory-data-analysis)
+3/29: [L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 3/31: [L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
+4/5: [L07 Fetching Data](#class-7-fetching-data) | 4/7: [L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
+4/12: [L09 Basic Model Evaluation](#class-9-basic-model-evaluation) | 4/14: [L10 Linear Regression](#class-10-linear-regression)
+4/19:  L11 **First Project Presentation** | 4/21: [L12 Logistic Regression](#class-12-logistic-regression)
+4/26: [L13 Advanced Model Evaluation](#class-13-advanced-model-evaluation) | 4/28: [L14 Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
+5/3: [L15  Natural Language Processing](#class-15-natural-language-processing) | 5/5: [L16 Neural Networks and SVC](#class-16-neural-networks-and-svc), **Draft Paper Due**
+5/10: [L17 Review and refresh](#class-17-review-and-refresh) | 5/12:[ L18 Regularization and<br>Clustering](#class-18-regularization-and-clustering) 
+5/17: [L19 Decision Trees](#class-19-decision-trees), **Peer Review Due** | 5/19: [L20 Ensembling, Bagging and Random Forests](#class-20-ensembling)
+
+
 1/19: [L21 Bonus Topics](#class-21-bonus-topics) | 1/21: L22 **Final Project Presentations**
 &nbsp;
 ## Submission Forms
@@ -178,7 +177,7 @@ Tuesday | Thursday
     * Alcohol consumption by country ([data](data/drinks.csv), [article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
     * Reports of UFO sightings ([data](data/ufo.csv), [website](http://www.nuforc.org/webreports.html))
 
-<!-- * Project question exercise-->
+
 
 
 **Homework:**
@@ -209,7 +208,7 @@ Tuesday | Thursday
 * To learn more Pandas, read this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
 * If you want to go really deep into Pandas (and NumPy), read the book [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do), written by the creator of Pandas.
 
-<!-- * This notebook demonstrates the different types of [joins in Pandas](notebooks/05_pandas_merge.ipynb), for when you need to figure out how to merge two DataFrames. -->
+<!-- * This notebook demonstrates the different types of [joins in Pandas](notebooks/05_pandas_merge.ipynb), for when you need to figure out how to merge two DataFrames. 
 * This is a nice, short tutorial on [pivot tables](https://beta.oreilly.com/learning/pivot-tables) in Pandas.
 * For working with geospatial data in Python, [GeoPandas](http://geopandas.org/index.html) looks promising. This [tutorial](http://michelleful.github.io/code-blog/2015/04/24/sgmap/) uses GeoPandas (and scikit-learn) to build a "linguistic street map" of Singapore.
 
@@ -375,7 +374,7 @@ Tuesday | Thursday
 
 <!--
 * For a brief introduction to confidence intervals, hypothesis testing, p-values, and R-squared, as well as a comparison between scikit-learn code and [Statsmodels](http://statsmodels.sourceforge.net/) code, read my [DAT7 lesson on linear regression](https://github.com/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb). 
--->
+
 * Here is a useful explanation of [confidence intervals](http://www.quora.com/What-is-a-confidence-interval-in-laymans-terms/answer/Michael-Hochster) from Quora.
 * [Hypothesis Testing: The Basics](http://20bits.com/article/hypothesis-testing-the-basics) provides a nice overview of the topic, and John Rauser's talk on [Statistics Without the Agonizing Pain](https://www.youtube.com/watch?v=5Dnw46eC-0o) (12 minutes) gives a great explanation of how the null hypothesis is rejected.
 * Earlier this year, a major scientific journal banned the use of p-values:
@@ -506,8 +505,7 @@ Tuesday | Thursday
 <!--
 * Introduction to our [Kaggle competition](https://inclass.kaggle.com/c/dat8-stack-overflow)
     * Create a Kaggle account, join the competition using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
--->
-
+    
 **Homework:**
 * **Your draft paper is due on Thursday (12/22)!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
 * The [homework assignment](homework/14_yelp_review_text_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Tuesday (12/22)
@@ -523,7 +521,6 @@ Tuesday | Thursday
 -->
 <!--
 (Or, just read through the [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
--->
 
 **NLP Resources:**
 * If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
@@ -531,7 +528,7 @@ Tuesday | Thursday
 * [Natural Language Processing with Python](http://www.nltk.org/book/) is the most popular book for going in-depth with the [Natural Language Toolkit](http://www.nltk.org/) (NLTK).
 * [A Smattering of NLP in Python](https://github.com/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb) provides a nice overview of NLTK
 
-<!-- , as does this [notebook from DAT5](https://github.com/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb).  -->
+<!-- , as does this [notebook from DAT5](https://github.com/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb).
 * [spaCy](http://spacy.io/) is a newer Python library for text processing that is focused on performance (unlike NLTK).
 * If you want to get serious about NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) is a suite of tools (written in Java) that is highly regarded.
 * When working with a large text corpus in scikit-learn, [HashingVectorizer](http://scikit-learn.org/stable/modules/feature_extraction.html#vectorizing-a-large-text-corpus-with-the-hashing-trick) is a useful alternative to CountVectorizer.
@@ -540,7 +537,8 @@ Tuesday | Thursday
 * [Identifying Humorous Cartoon Captions](http://www.cs.huji.ac.il/~dshahaf/pHumor.pdf) is a readable paper about identifying funny captions submitted to the New Yorker Caption Contest.
 
 <!--
-* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) is an active Meetup group in our local area.  -->
+* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) is an active Meetup group in our local area.
+
 
 -----
 
