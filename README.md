@@ -85,7 +85,7 @@ Before this lesson you should already be able to:
 	* Data Science Quiz
 * Data Science workflow
 	* Exercise (Apply the workflow)
-* Hands on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks
+* Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
 
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
