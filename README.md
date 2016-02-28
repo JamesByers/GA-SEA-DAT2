@@ -1,10 +1,10 @@
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 ###SEA-DAT2 course repository
-###Student materials for [the General Assembly Science course](https://generalassemb.ly/education/data-science/seattle/)
+###Student materials for the [General Assembly Science course](https://generalassemb.ly/education/data-science/seattle/)
 **Location:** Seattle, WA
-**Class times:** Classes: 6:30pm - 9:30pm
-**Instructor:** [Jim Byers](https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI)
+<p>**Class times:** Classes: 6:30pm - 9:30pm</p>
+<p>**Instructor:** [Jim Byers](https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI)</p>
 
 Tuesday | Thursday
 --- | ---
