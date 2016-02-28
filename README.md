@@ -2,9 +2,8 @@
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 ##SEA-DAT2 course repository
 
-Student materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/seattle/)
-<p>Seattle, WA</p>
-<p>(3/15/16 - 5/19/16)</p>
+**Student materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/seattle/)**
+<p>Seattle, WA (3/15/16 - 5/19/16)</p>
 
 **Instructor:** [Jim Byers](https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI)
 
