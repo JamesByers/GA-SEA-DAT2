@@ -12,17 +12,17 @@ Tuesday | Thursday
 **2016** | 
 | 3/15: [??L01 Introduction to Data Science](#class-1-introduction-to-data-science) | 3/17: [??L02 Command Line, Version Control](#class-2-command-line-and-version-control)
 3/22: [??L03 Reading and preparing data](#class-3-reading-and-preparing-data) | 3/24: [??L04 Exploratory Data Analysis](#class-4-exploratory-data-analysis)
-3/29: [L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 3/31: [L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
-4/5: [L07 Fetching Data](#class-7-fetching-data) | 4/7: [L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
-4/12: [L09 Basic Model Evaluation](#class-9-basic-model-evaluation) | 4/14: [L10 Linear Regression](#class-10-linear-regression)
-4/19:  L11 **First Project Presentation** | 4/21: [L12 Logistic Regression](#class-12-logistic-regression)
-4/26: [L13 Advanced Model Evaluation](#class-13-advanced-model-evaluation) | 4/28: [L14 Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
-5/3: [L15  Natural Language Processing](#class-15-natural-language-processing) | 5/5: [L16 Neural Networks and SVC](#class-16-neural-networks-and-svc), **Draft Paper Due**
-5/10: [L17 Review and refresh](#class-17-review-and-refresh) | 5/12:[ L18 Regularization and<br>Clustering](#class-18-regularization-and-clustering) 
-5/17: [L19 Decision Trees](#class-19-decision-trees), **Peer Review Due** | 5/19: [L20 Ensembling, Bagging and Random Forests](#class-20-ensembling)
+3/29: [??L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 3/31: [??L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
+4/5: [??L07 Fetching Data](#class-7-fetching-data) | 4/7: [??L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
+4/12: [??L09 Basic Model Evaluation](#class-9-basic-model-evaluation) | 4/14: [??L10 Linear Regression](#class-10-linear-regression)
+4/19:  ??L11 **First Project Presentation** | 4/21: [??L12 Logistic Regression](#class-12-logistic-regression)
+4/26: [??L13 Advanced Model Evaluation](#class-13-advanced-model-evaluation) | 4/28: [??L14 Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
+5/3: [??L15  Natural Language Processing](#class-15-natural-language-processing) | 5/5: [??L16 Neural Networks and SVC](#class-16-neural-networks-and-svc), **Draft Paper Due**
+5/10: [??L17 Review and refresh](#class-17-review-and-refresh) | 5/12:[?? L18 Regularization and<br>Clustering](#class-18-regularization-and-clustering) 
+5/17: [?? L19 Decision Trees](#class-19-decision-trees), **Peer Review Due** | 5/19: [ ?? L20 Ensembling, Bagging and Random Forests](#class-20-ensembling)
 
 
-1/19: [L21 Bonus Topics](#class-21-bonus-topics) | 1/21: L22 **Final Project Presentations**
+1/19: [??L21 Bonus Topics](#class-21-bonus-topics) | 1/21: ?? L22 **Final Project Presentations**
 &nbsp;
 ## Submission Forms
 ### [      Exit ticket form] (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
