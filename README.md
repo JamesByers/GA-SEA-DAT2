@@ -12,7 +12,7 @@ Student materials for [General Assembly's Data Science course](https://generalas
 Tuesday | Thursday
 --- | ---
 **2016** | 
-| 3/15: [L01 Introduction to Data Science](#class-1-introduction-to-data-science) | 3/17: [??L02 Command Line, Version Control](#class-2-command-line-and-version-control)
+| 3/15: [L01 Introduction to Data Science](#class-1-let's-get-rolling!-introduction-to-data-science) | 3/17: [??L02 Command Line, Version Control](#class-2-command-line-and-version-control)
 3/22: [??L03 Reading and preparing data](#class-3-reading-and-preparing-data) | 3/24: [??L04 Exploratory Data Analysis](#class-4-exploratory-data-analysis)
 3/29: [??L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 3/31: [??L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
 4/5: [??L07 Fetching Data](#class-7-fetching-data) | 4/7: [??L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
