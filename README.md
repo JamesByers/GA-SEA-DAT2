@@ -56,7 +56,7 @@ Tuesday | Thursday
 ### Class 1: Lets get rolling! - Introduction to Data Science
 
 **Student Prework**
-*Before this lesson* you should already be able to:
+Before this lesson you should already be able to:
 * Define basic data types used in object-oriented programming
 * Recall the Python syntax for lists, dictionaries, and functions
 * Create files and navigate directories using the command line interface (for your specific environment)
