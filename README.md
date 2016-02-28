@@ -53,29 +53,33 @@ Tuesday | Thursday
 -----
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Welcome to Data Science
 
-### Class 1 Introduction to Data Science
+<a name="Class 1 Introduction to Data Science"></a>
+### Class 1 Introduction to Data Science - Lets get rolling! **
 
-#Lets get rolling!
-
-After this lesson, you will be able to:
-
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Welcome to Data Science 
-DS
-
-### LEARNING OBJECTIVES
-*After this lesson, you will be able to:*
-
-- Describe the roles and components of a successful learning environment
-- Define data science and the data science workflow
-- Apply the data science workflow to meet your classmates
-- Setup your development environment and review python basics
-
-### STUDENT PRE-WORK
+** STUDENT PRE-WORK **
 *Before this lesson, you should already be able to:*
-
 - Define basic data types used in object-oriented programming
 - Recall the Python syntax for lists, dictionaries, and functions
 - Create files and navigate directories using the command line interface (for your specific environment)
+
+** After this lesson, you will be able to: **
+* Describe the roles and components of a successful learning environment
+* Define data science and the data science workflow
+* Apply the data science workflow to meet your classmates
+* Setup your development environment and review python basics
+
+<!--
+| TIMING  | TYPE  | TOPIC  |
+|:-:|---|---|
+| 20 min  | [Opening](#opening)  | Welcome to GA  |
+| 20 min  | [Introduction](#introduction1)   | What is Data Science  |
+| 10 min  | [Quiz](#quiz)   | Data Science Quiz  |
+| 25 min  | [Introduction](#introduction2)  | Data Science Workflow  |
+| 25 min  | [Guided Practice](#practice)  | Workflow Application  |
+| 65 min  | [Demo](#demo)   | Data Science Dev Environment  |
+| 5 min  | [Conclusion](#conclusion)  | Review  |
+-->
+
 
 
 
