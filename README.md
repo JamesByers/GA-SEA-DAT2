@@ -14,8 +14,8 @@ Tuesday | Thursday
 3/29: [L05 Fetching Data](#fetching-data)** Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: [L06 Intro to Regression](#intro-to-regression) ** Project Question and Dataset Due**
-4/5: L07 Evaluating Model fit | 4/7: L08 Intro to Classification - K-means
-4/12: L09 Classifying with Logistic Regression | 4/14: L10 Communication Logistic Regression results
+4/5: L07 Evaluating Model Fit | 4/7: L08 Intro to Classification - K-means
+4/12: L09 Classifying with Logistic Regression | 4/14: L10 Advanced model evaluation
 4/19: L11 Clustering | 4/21: L12: **First Project Presentations** + bonus topics
 **Data science in the real world**|
 4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
