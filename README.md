@@ -8,22 +8,22 @@
 
 Tuesday | Thursday
 --- | ---
-**2016** |
+Research Design and Exploratory data analysis|
 
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: [L03 Statistics fundamentals I (with Pandas)](#statistics_fundamentals_I) | 3/24: [L04 Statistics fundamentals II (more Pandas!](#statistics_fundamentals_I))
-3/29: [L05 Command Line and Version Control](#command_line)** Project Discussion Deadline** | 3/31: [??L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
-4/5: [??L07 Fetching Data](#class-7-fetching-data) | 4/7: [??L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
-4/12: [??L09 Basic Model Evaluation](#class-9-basic-model-evaluation) | 4/14: [??L10 Linear Regression](#class-10-linear-regression)
-4/19:  ??L11 **First Project Presentation** | 4/21: [??L12 Logistic Regression](#class-12-logistic-regression)
-4/26: [??L13 Advanced Model Evaluation](#class-13-advanced-model-evaluation) | 4/28: [??L14 Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
-5/3: [??L15  Natural Language Processing](#class-15-natural-language-processing) | 5/5: [??L16 Neural Networks and SVC](#class-16-neural-networks-and-svc), **Draft Paper Due**
-5/10: [??L17 Review and refresh](#class-17-review-and-refresh) | 5/12:[?? L18 Regularization and<br>Clustering](#class-18-regularization-and-clustering) 
-5/17: [?? L19 Decision Trees](#class-19-decision-trees), **Peer Review Due** | 5/19: [ ?? L20 Ensembling, Bagging and Random Forests](#class-20-ensembling)
+3/22: [L03 Statistics fundamentals I (with Pandas)](#statistics_fundamentals_I) | 3/24: [L04 Statistics fundamentals II (with Pandas)](#statistics_fundamentals_I))
+3/29: [L05 Command Line and Version Control](#command_line)** Project Discussion Deadline** 
+Foundations of data modeling|
+ | 3/31: L06 Intro to Regression ** Project Question and Dataset Due**
+4/5: L07 Evaluating Model fit | 4/7: L08 Intro to Classification - K-means
+4/12: L09 Classifying with Logistic Regression | 4/14: L10 Communication Logistic Regression results
+4/19: L11 Clustering | 4/21: L12: **First Project Presentations** + bonus topics
+Data science in the real world |
+4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
+5/3: L15 Decision Trees | 5/5: L16 Ensembling, Bagging and Random Forests
+5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
+5/17: L19 Where to go next + bonus topics, **Peer Review Due** | 5/19: **Final Project Presentations**
 
-
-1/19: [??L21 Bonus Topics](#class-21-bonus-topics) | 1/21: ?? L22 **Final Project Presentations**
-&nbsp;
 ## Submission Forms
 
 ### [      Exit ticket form]  (Add link to DAT2 exit ticket)
@@ -92,7 +92,7 @@ Before this lesson you should already be able to:
 
 
 
-<a name="experimental-design"></a>
+<a name="research-design"></a>
 ### Class 2: Research Design and Pandas
 **Student pre-work**
 Before this lesson, you should already be able to:
