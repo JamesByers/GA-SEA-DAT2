@@ -89,7 +89,7 @@ Before this lesson you should already be able to:
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
 * Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
 
-
+-----
 
 <a name="research-design"></a>
 ### Class 2: Research Design and Pandas
@@ -128,6 +128,14 @@ Before this lesson, you should already be able to:
 * [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
 * If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
+
+### Class 3: Statistics fundamentals I (with Pandas)
+
+-----
+
+### Class 3: Statistics fundamentals II (with Pandas)
+
+-----
 
 <a name="command-line"></a>
 ### Class 5: Command Line and Version Control
