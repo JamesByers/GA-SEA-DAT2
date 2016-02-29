@@ -4,12 +4,15 @@
 <br><b>Class times:</b> Classes: 6:30pm - 9:30pm</br>
 <b/>Instructor:</b> <a href="https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI">Jim Byers</a>
 
+**Note:** Prior to the first day of class complete the 10-15 hours of pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
+
 Tuesday | Thursday
 --- | ---
-**2016** | 
-| 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: [??L03 Reading and preparing data](#class-3-reading-and-preparing-data) | 3/24: [??L04 Exploratory Data Analysis](#class-4-exploratory-data-analysis)
-3/29: [??L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 3/31: [??L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
+**2016** |
+
+3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
+3/22: [L03 Statistics fundamentals I (with Pandas)](#statistics_fundamentals_I) | 3/24: [L04 Statistics fundamentals II (more Pandas!](#statistics_fundamentals_I))
+3/29: [L05 Command Line and Version Control](#command_line)** Project Discussion Deadline** | 3/31: [??L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
 4/5: [??L07 Fetching Data](#class-7-fetching-data) | 4/7: [??L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
 4/12: [??L09 Basic Model Evaluation](#class-9-basic-model-evaluation) | 4/14: [??L10 Linear Regression](#class-10-linear-regression)
 4/19:  ??L11 **First Project Presentation** | 4/21: [??L12 Logistic Regression](#class-12-logistic-regression)
@@ -93,8 +96,8 @@ Before this lesson you should already be able to:
 ### Class 2: Research Design and Pandas
 **Student pre-work**
 Before this lesson, you should already be able to:
-* Create, open and create and IPython Notebook
-* Have completed python pre-work
+* Create, open, create and shutsown an IPython Notebook
+* Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
 
 **After this lesson, you will be able to:**
 * Define a problem and types of data
@@ -112,6 +115,23 @@ Before this lesson, you should already be able to:
 	* demo 
 	* [Pandas codealong](#codealong)
 	* [Independent Practice](#lab)
+
+**Homework:**
+* Review the code from a [beginner](code/00_python_beginner_workshop.py) and an [intermediate](code/00_python_intermediate_workshop.py) Python workshop. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python:
+    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
+    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
+    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
+    * If you have more time, try missions 2 and 3 from [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) course.
+    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message)
+
+**Resources:**
+* [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
+* [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
+* [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
+* If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
+
+<!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
+* Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md) -->
 
 
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
