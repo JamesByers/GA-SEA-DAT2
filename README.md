@@ -4,14 +4,14 @@
 <br><b>Class times:</b> Classes: 6:30pm - 9:30pm</br>
 <b/>Instructor:</b> <a href="https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI">Jim Byers</a>
 
-**Note:** Prior to the first day of class complete the 10-15 hours of pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
+**Note:** Prior to the first day of class complete the 10-15 hours of pre-work in order to be properly prepared for class [(prework)](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
 
 Tuesday | Thursday
 --- | ---
 **Research Design and Exploratory data analysis**|
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
 3/22: L03 Statistics fundamentals I (with Pandas) | 3/24: L04 Statistics fundamentals II (with Pandas)
-3/29: [L05 Command Line and Version Control](#command_line)** Project Discussion Deadline** |
+3/29: [L05 Command Line and Version Control](#command-line)** Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: L06 Intro to Regression ** Project Question and Dataset Due**
 4/5: L07 Evaluating Model fit | 4/7: L08 Intro to Classification - K-means
@@ -21,7 +21,7 @@ Tuesday | Thursday
 4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
 5/3: L15 Decision Trees | 5/5: L16 Ensembling, Bagging and Random Forests
 5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
-5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
+5/17: L19 Where to go next + bonus topics, **Peer Review Due** | 5/19: **Final Project Presentations**
 
 ## Submission Forms
 
@@ -129,6 +129,37 @@ Before this lesson, you should already be able to:
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
 * If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
 
+<a name="command-line"></a>
+### Class 5: Command Line and Version Control
+
+**By the end of this lesson you will be able to:**
+* clone a Githib repository to your laptop
+* synch your local files with your GitHub repository using git add, commit, push and pull
+* use more advanced command line commands such as Grep and |
+
+**Topics/Highlights**
+* Slack tour
+* Review the command line pre-class exercise ([code](code/02_command_line_basics.md))
+* Git and GitHub ([slides](slides/02_git_github.pdf))
+* Intermediate command line
+
+**Homework:**
+* Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
+* **Optional:** Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
+
+**Git and Markdown Resources:**
+* [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
+* If you want to practice a lot of Git (and learn many more commands), [Git Immersion](http://gitimmersion.com/) looks promising.
+* If you want to understand how to contribute on GitHub, you first have to understand [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
+* [GitRef](http://gitref.org/) is my favorite reference guide for Git commands, and [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) is a shorter guide with commands grouped by workflow.
+* [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explains why GitHub is so popular among developers.
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a thorough set of Markdown examples with concise explanations. GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a simpler and more attractive guide, but is less comprehensive.
+
+**Command Line Resources:**
+* If you want to go much deeper into the command line, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) is a great book. The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" (a virtual machine with many more command line tools), as well as a long reference guide to popular command line tools.
+* If you want to do more at the command line with CSV files, try out [csvkit](http://csvkit.readthedocs.org/), which can be installed via `pip`.
+
+-----
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md) -->
 
