@@ -7,7 +7,7 @@
 Tuesday | Thursday
 --- | ---
 **2016** | 
-| 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [??L02 Command Line, Version Control](#class-2-command-line-and-version-control)
+| 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
 3/22: [??L03 Reading and preparing data](#class-3-reading-and-preparing-data) | 3/24: [??L04 Exploratory Data Analysis](#class-4-exploratory-data-analysis)
 3/29: [??L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 3/31: [??L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
 4/5: [??L07 Fetching Data](#class-7-fetching-data) | 4/7: [??L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
@@ -82,12 +82,40 @@ Before this lesson you should already be able to:
 	* Exercise (Apply the workflow)
 * Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
 
+**Resources:**
+* For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
+* For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
+* Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
+
+
+
+<a name="experimental-design"></a>
+### Class 2: Research Design and Pandas
+**Student pre-work**
+Before this lesson, you should already be able to:
+* Create, open and create and IPython Notebook
+* Have completed python pre-work
+
+**After this lesson, you will be able to:**
+* Define a problem and types of data
+* Identify data set types
+* Define the data science workflow
+* Apply the data science workflow in the pandas context
+* Write an IPython Notebook to import, format and clean data using the Pandas Library
+
+**Topics/Highlights**
+* The why's and how's of a good question
+* Types of datasets (slides)
+* Write a research question with raw data (exercise)
+* Datascience workflow steps 2. Acquire and 3. Parse
+* Acquire and Parse with Pandas 
+	* demo 
+	* [Pandas codealong](#codealong)
+	* [Independent Practice](#lab)
+
+
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
-
-
-
-
 ### Class 1  older: Introduction to Data Science
 
 **By the end of this lesson you will be able to:**
