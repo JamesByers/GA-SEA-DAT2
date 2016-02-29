@@ -10,7 +10,7 @@ Tuesday | Thursday
 --- | ---
 **Research Design and Exploratory data analysis**|
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: [L03 Statistics fundamentals I (with Pandas)](#statistics_fundamentals_I) | 3/24: [L04 Statistics fundamentals II (with Pandas)](#statistics_fundamentals_I))
+3/22: L03 Statistics fundamentals I (with Pandas) | 3/24: L04 Statistics fundamentals II (with Pandas)
 3/29: [L05 Command Line and Version Control](#command_line)** Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: L06 Intro to Regression ** Project Question and Dataset Due**
@@ -21,7 +21,7 @@ Tuesday | Thursday
 4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
 5/3: L15 Decision Trees | 5/5: L16 Ensembling, Bagging and Random Forests
 5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
-5/17: L19 Where to go next + bonus topics, **Peer Review Due** | 5/19: **Final Project Presentations**
+5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
 
 ## Submission Forms
 
