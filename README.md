@@ -869,7 +869,7 @@ Before this lesson, you should already be able to:
 <!--
 ### [Comparison of machine learning models](other/model_comparison.md)
 -->
-
+ 
 <!--
 ### [Comparison of model evaluation procedures and metrics](other/model_evaluation_comparison.md)
 # http://3.bp.blogspot.com/-dofu6J0sZ8o/UrctKb69QdI/AAAAAAAADfg/79ewPecn5XU/s1600/scikit-learn-flow-chart.jpg
