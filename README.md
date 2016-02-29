@@ -13,7 +13,7 @@ Tuesday | Thursday
 3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line)** Project Discussion Deadline**
 3/29: [L05 Fetching Data](#fetching-data)** Project Discussion Deadline** |
 **Foundations of data modeling**|
- | 3/31: L06 Intro to Regression ** Project Question and Dataset Due**
+ | 3/31: [L06 Intro to Regression](#intro-to-regression) ** Project Question and Dataset Due**
 4/5: L07 Evaluating Model fit | 4/7: L08 Intro to Classification - K-means
 4/12: L09 Classifying with Logistic Regression | 4/14: L10 Communication Logistic Regression results
 4/19: L11 Clustering | 4/21: L12: **First Project Presentations** + bonus topics
@@ -207,6 +207,26 @@ Before this lesson, you should already be able to:
 * [import.io](https://import.io/) and [Kimono](https://www.kimonolabs.com/) claim to allow you to scrape websites without writing any code.
 * [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) and [How Netflix Reverse Engineered Hollywood](http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/?single_page=true) are two fun examples of how web scraping has been used to build interesting datasets.
 
+-----
+
+<a name="class-1"></a>
+### Class 6: Intro to regression
+* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
+* Linear regression ([notebook](notebooks/10_linear_regression.ipynb))
+    * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
+    * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
+* Why we should examine data well before building a model: Anscombes_Quartet [(notebook)](notebooks/10_Anscombes_Quartet.ipynb)
+* Feature engineering example: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
+
+**Homework:**
+* Your first project presentation is on Thursday (12/3)! Please submit a link to your project repository (with slides, code, data, and visualizations) by 6pm on Tuesday.
+* Complete the [homework assignment](homework/10_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv). This is due on Tuesday (12/8).
+
+**Linear Regression Resources:**
+* To go much more in-depth on linear regression, read Chapter 3 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) or read Kevin Markhams [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) to the key points in that chapter.
+* This [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is more detailed and mathematically thorough, and includes lots of good advice.
+* This is a relatively quick post on the [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
+* Setosa has an [interactive visualization](http://setosa.io/ev/ordinary-least-squares-regression/) of linear regression.
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md) -->
 
