@@ -10,8 +10,8 @@ Tuesday | Thursday
 --- | ---
 **Research Design and Exploratory data analysis**|
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: L03 Statistics fundamentals I (with Pandas) | 3/24: L04 Statistics fundamentals II (with Pandas)
-3/29: [L05 Command Line and Version Control](#command-line)** Project Discussion Deadline** |
+3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line)** Project Discussion Deadline**
+3/29: [L05 Fetching Data](#fetching-data)** Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: L06 Intro to Regression ** Project Question and Dataset Due**
 4/5: L07 Evaluating Model fit | 4/7: L08 Intro to Classification - K-means
@@ -133,12 +133,8 @@ Before this lesson, you should already be able to:
 
 -----
 
-### Class 3: Statistics fundamentals II (with Pandas)
-
------
-
 <a name="command-line"></a>
-### Class 5: Command Line and Version Control
+### Class 4: Command Line and Version Control
 
 **By the end of this lesson you will be able to:**
 * clone a Githib repository to your laptop
@@ -168,6 +164,49 @@ Before this lesson, you should already be able to:
 * If you want to do more at the command line with CSV files, try out [csvkit](http://csvkit.readthedocs.org/), which can be installed via `pip`.
 
 -----
+
+### Class 5: Fetching Data
+
+**After this lesson you will be able to:**
+* Articulate what JSON, APIs and Web scraping are and how they help us fetch data
+* Retrieve data from a website using the site’s APIs
+* Scrape a web page to extract data
+
+**Topics/Highlights:**
+* Pandas homework with the IMDb data due ([code](homework/05_pandas_homework_imbd.py))
+* Optional "human learning" exercise with the iris data due ([code](notebooks/06_human_learning_iris.ipynb))
+* Fetching data through APIs
+    * [APIs - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
+    * Code along - Access APIs on omdbapi.com [(code)](code/07_api.py)
+     * Exercise - Retrieve US Census language stats though APIs
+     * [Census.gov language statistics page with API description](http://www.census.gov/data/developers/data-sets/language-stats.html)
+* Grabbing data using Web scraping ([code](code/07_web_scraping.py))
+    * [APIs - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf)
+    * [IMDb: robots.txt](http://www.imdb.com/robots.txt)
+    * [Example web page](data/example.html)
+    * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
+
+
+**Homework:**
+* **Optional:** Complete the homework exercise listed in the [web scraping code](code/07_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Monday (11/23).
+* **Optional:** If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.)
+
+**API Resources:**
+* This Python script to [query the U.S. Census API](https://github.com/laurakurup/census-api) was created by a former DAT student. It's a bit more complicated than the example we used in class, it's very well commented, and it may provide a useful framework for writing your own code to query APIs.
+* [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
+* The [Data Science Toolkit](http://www.datasciencetoolkit.org/) is a collection of location-based and text-related APIs.
+* [API Integration in Python](https://realpython.com/blog/python/api-integration-in-python/) provides a very readable introduction to REST APIs.
+* Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), which powers [How-Old.net](http://how-old.net/), is a great example of how a machine learning API can be leveraged to produce a compelling web application.
+
+**Web Scraping Resources:**
+* The [Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) is incredibly thorough, but is hard to use as a reference guide. However, the section on [specifying a parser](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use) may be helpful if Beautiful Soup appears to be parsing a page incorrectly.
+* For more Beautiful Soup examples and tutorials, see [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), a former DAT student's well-commented notebook on [scraping Craigslist](https://github.com/Alexjmsherman/DataScience_GeneralAssembly/blob/master/Final_Project/1.%20Final_Project_Data%20Scraping.ipynb), this [notebook](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html) from Stanford's Text As Data course, and this [notebook](https://github.com/cs109/2014/blob/master/lectures/2014_09_23-lecture/data_scraping_transcript.ipynb) and associated [video](http://cm.dce.harvard.edu/2015/01/14328/L07/screen_H264LargeTalkingHead-16x9.shtml) from Harvard's Data Science course.
+* For a much longer web scraping tutorial covering Beautiful Soup, lxml, XPath, and Selenium, watch [Web Scraping with Python](https://www.youtube.com/watch?v=p1iX0uxM1w8) (3 hours 23 minutes) from PyCon 2014. The [slides](https://docs.google.com/presentation/d/1uHM_esB13VuSf7O1ScGueisnrtu-6usGFD3fs4z5YCE/edit#slide=id.p) and [code](https://github.com/kjam/python-web-scraping-tutorial) are also available.
+* For more complex web scraping projects, [Scrapy](http://scrapy.org/) is a popular application framework that works with Python. It has excellent [documentation](http://doc.scrapy.org/en/1.0/index.html), and here's a [tutorial](https://github.com/rdempsey/ddl-data-wrangling) with detailed slides and code.
+* [robotstxt.org](http://www.robotstxt.org/robotstxt.html) has a concise explanation of how to write (and read) the `robots.txt` file.
+* [import.io](https://import.io/) and [Kimono](https://www.kimonolabs.com/) claim to allow you to scrape websites without writing any code.
+* [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) and [How Netflix Reverse Engineered Hollywood](http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/?single_page=true) are two fun examples of how web scraping has been used to build interesting datasets.
+
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md) -->
 
