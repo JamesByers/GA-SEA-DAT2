@@ -21,7 +21,7 @@ Tuesday | Thursday
 4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
 5/3: L15 Decision Trees | 5/5: L16 Ensembling, Bagging and Random Forests
 5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
-5/17: L19 Where to go next + bonus topics, **Peer Review Due** | 5/19: **Final Project Presentations**
+5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
 
 ## Submission Forms
 
