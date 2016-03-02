@@ -13,7 +13,7 @@ Tuesday | Thursday
 3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line) **Project Discussion Deadline**
 3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
 **Foundations of data modeling**|
- | 3/31: [L06 Intro to Regression](#intro-to-regression) ** Project Question and Dataset Due**
+ | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
 4/5: L07 Evaluating Model Fit | 4/7: [L08 Intro to Classification - K nearest neighbor](#knn)
 4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
 4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
