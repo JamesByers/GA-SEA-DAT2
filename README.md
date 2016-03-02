@@ -1,87 +1,374 @@
-### SEA-DAT1 course repository
+##![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SEA-DAT2 course repository
+###General Assembly Data Science course
+**Location:** Seattle, WA
+<br><b>Class times:</b> Classes: 6:30pm - 9:30pm</br>
+<b/>Instructor:</b> <a href="https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI">Jim Byers</a>
 
-Materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/seattle/) in Seattle, WA
-(10/27/15 - 1/21/16)
-
-**Instructor:** [Jim Byers](https://www.linkedin.com/profile/view?id=ADEAAAEai9UBI1CGmAPFMYpURJeL9zvxWX6xBqI)
-
-**Classes:** 6:30pm - 9:30pm
+**Note:** Prior to the first day of class complete the 10-15 hours of pre-work in order to be properly prepared for class [(prework)](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
 
 Tuesday | Thursday
 --- | ---
-**2015** | 
-| 10/27: [L01 Introduction to Data Science](#class-1-introduction-to-data-science) | 10/29: [L02 Command Line, Version Control](#class-2-command-line-and-version-control)
-11/3: [L03 Reading and preparing data](#class-3-reading-and-preparing-data) | 11/5: [L04 Exploratory Data Analysis](#class-4-exploratory-data-analysis)
-11/10: [L05 Visualization](#class-5-visualization)** Project Discussion Deadline** | 11/12: [L06 Machine Learning](#class-6-machine-learning)** Project Question and Dataset Due**
-11/17: [L07 Fetching Data](#class-7-fetching-data) | 11/19: [L08 K-Nearest Neighbors](#class-8-k-nearest-neighbors)
-**Monday** 11/23: [L09 Basic Model Evaluation](#class-9-basic-model-evaluation) | 11/26 (Holiday/ No class) |
-12/1: [L10 Linear Regression](#class-10-linear-regression) | 12/3:  L11 **First Project Presentation** 
-12/8: [L12 Logistic Regression](#class-12-logistic-regression) | 12/10: [L13 Advanced Model Evaluation](#class-13-advanced-model-evaluation)
-12/15: [L14 Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data) | 12/17: [L15  Natural Language Processing](#class-15-natural-language-processing)
-12/22: [L16 Neural Networks and SVC](#class-16-neural-networks-and-svc), **Draft Paper Due** | 12/24: (Holiday/ No class)
-12/29: (Holiday/ No class) | 12/31: (Holiday/ No class)
-**2016** |
-1/5: [L17 Review and refresh](#class-17-review-and-refresh) | 1/7:[ L18 Regularization and<br>Clustering](#class-18-regularization-and-clustering) 
-1/12: [L19 Decision Trees](#class-19-decision-trees), **Peer Review Due** | 1/14: [L20 Ensembling, Bagging and Random Forests](#class-20-ensembling)
-1/19: [L21 Bonus Topics](#class-21-bonus-topics) | 1/21: L22 **Final Project Presentations**
-&nbsp;
+**Research Design and Exploratory data analysis**|
+3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
+3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line) **Project Discussion Deadline**
+3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
+**Foundations of data modeling**|
+ | 3/31: [L06 Intro to Regression](#intro-to-regression) ** Project Question and Dataset Due**
+4/5: L07 Evaluating Model Fit | 4/7: [L08 Intro to Classification - K nearest neighbor](#knn)
+4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
+4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
+**Data science in the real world**|
+4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
+5/3: L15 Decision Trees | 5/5: L16 Ensembling, Bagging and Random Forests
+5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
+5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
+
 ## Submission Forms
-### [      Exit ticket form] (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
-### [      Homework and project submissions form] (https://docs.google.com/forms/d/1S82LIibhiG2olZQb2C7iboqN5rb8wB6mQLFBg992eh4/viewform?usp=send_form)
+
+### [      Exit ticket form]  (Add link to DAT2 exit ticket)
+<!--
+(https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
+-->
+### [      Homework and project submissions form] (Add link to DAT2 submission form)
+<!--
+(https://docs.google.com/forms/d/1S82LIibhiG2olZQb2C7iboqN5rb8wB6mQLFBg992eh4/viewform?usp=send_form)
+-->
 * [Homework Evaluation Criteria](https://docs.google.com/spreadsheets/d/19XaVllCETEWyROSMHIShVWgUqK-kbZkvSeCzjK7yezI/edit?usp=sharing)
  &nbsp;
 
 -----
 
-<!--
-### Before the Course Begins
-* Install [Git](http://git-scm.com/downloads).
-* Create an account on the [GitHub](https://github.com/) website.
-    * It is not necessary to download "GitHub for Windows" or "GitHub for Mac"
-* Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
-    * If you choose not to use Anaconda, here is a list of the [Python packages](other/python_packages.md) you will need to install during the course.
-* We would like to check the setup of your laptop before the course begins:
-    * You can have your laptop checked prior to class on 10/27 from 5:00-5:45PM.
-    * Alternatively, you can walk through the [setup checklist](other/setup_checklist.md) yourself.
-* Once you receive an email invitation from Slack, join our "SEA-DAT1" Slack group and add your photo.
-* Practice Python using the resources below.
-
-### Additional Python Resources
-* [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
-* [Google's Python Class](https://developers.google.com/edu/python/): Slightly more advanced, including hours of useful lecture videos and downloadable exercises (with solutions).
-* [Introduction to Python](http://introtopython.org/): A series of IPython notebooks that do a great job explaining core Python concepts and data structures.
-* [Python for Informatics](http://www.pythonlearn.com/book.php): A very beginner-oriented book, with associated [slides](https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing) and [videos](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ).
-* [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/gist/rpmuller/5920182): Read through the Overview section for a very quick introduction to Python.
-* [Python Quick Reference Guide](other/python_reference): Kevin Markham's beginner-oriented guide that demonstrates Python concepts through short, well-commented examples.
-* [Beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) workshop code: Useful for review and reference.
-* [Python Tutor](http://pythontutor.com/): Allows you to visualize the execution of Python code.
--->
-
-
-
-<!--
-### [Comparison of machine learning models](other/model_comparison.md)
--->
-
-<!--
-### [Comparison of model evaluation procedures and metrics](other/model_evaluation_comparison.md)
-# http://3.bp.blogspot.com/-dofu6J0sZ8o/UrctKb69QdI/AAAAAAAADfg/79ewPecn5XU/s1600/scikit-learn-flow-chart.jpg
--->
 ## Other resources
 
+<!--
 #### [Machine learning estimator selection - a diagram](http://3.bp.blogspot.com/-dofu6J0sZ8o/UrctKb69QdI/AAAAAAAADfg/79ewPecn5XU/s1600/scikit-learn-flow-chart.jpg)
+-->
 
 #### [Machine learning model comparison](/other/model_comparison.md)
  &nbsp;
 
+-----
 
+<a name="class-1"></a>
+### Class 1: Lets get rolling! - Intro to Data Science
+
+**Student Prework**
+Before this lesson you should already be able to:
+* Define basic data types used in object-oriented programming
+* Recall the Python syntax for lists, dictionaries, and functions
+* Create files and navigate directories using the command line interface (for your specific environment)
+
+**After this lesson, you will be able to:**
+* Describe the roles and components of a successful learning environment
+* Define data science and the data science workflow
+* Apply the data science workflow to meet your classmates
+* Setup your development environment and review python basics
+
+<!--
+| TIMING  | TYPE  | TOPIC  |
+|:-:|---|---|
+| 20 min  | [Opening](#opening)  | Welcome to GA  |
+| 20 min  | [Introduction](#introduction1)   | What is Data Science  |
+| 10 min  | [Quiz](#quiz)   | Data Science Quiz  |
+| 25 min  | [Introduction](#introduction2)  | Data Science Workflow  |
+| 25 min  | [Guided Practice](#practice)  | Workflow Application  |
+| 65 min  | [Demo](#demo)   | Data Science Dev Environment  |
+| 5 min  | [Conclusion](#conclusion)  | Review  |
+-->
+**Topics/Highlights**
+* Welcome from General Assembly!
+* Course overview ([slides](slides/01_course_overview.pdf))
+* What is data science ([slides](slides/01_data_science_intro.pdf))
+	* Data Science Quiz
+* Data Science workflow
+	* Exercise (Apply the workflow)
+* Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
+
+**Resources:**
+* For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
+* For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
+* Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
 
 -----
 
-### Class 1: Introduction to Data Science
+<a name="research-design"></a>
+### Class 2: Research Design and Pandas
+**Student pre-work**
+Before this lesson, you should already be able to:
+* Create, open, create and shutsown an IPython Notebook
+* Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
+
+**After this lesson, you will be able to:**
+* Define a problem and types of data
+* Identify data set types
+* Define the data science workflow
+* Apply the data science workflow in the pandas context
+* Write an IPython Notebook to import, format and clean data using the Pandas Library
+
+**Topics/Highlights**
+* The why's and how's of a good question
+* Types of datasets (slides)
+* Write a research question with raw data (exercise)
+* Datascience workflow steps 2. Acquire and 3. Parse
+* Acquire and Parse with Pandas 
+	* demo 
+	* [Pandas codealong](#codealong)
+	* [Independent Practice](#lab)
+
+**Homework:**
+* Review the code from a [beginner](code/00_python_beginner_workshop.py) and an [intermediate](code/00_python_intermediate_workshop.py) Python workshop. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python:
+    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
+    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
+    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
+    * If you have more time, try missions 2 and 3 from [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) course.
+    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message)
+
+**Resources:**
+* [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
+* [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
+* [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
+* If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
+
+### Class 3: Statistics fundamentals I (with Pandas)
+
+-----
+
+<a name="command-line"></a>
+### Class 4: Command Line and Version Control
 
 **By the end of this lesson you will be able to:**
+* clone a Githib repository to your laptop
+* synch your local files with your GitHub repository using git add, commit, push and pull
+* use more advanced command line commands such as Grep and |
 
+**Topics/Highlights**
+* Slack tour
+* Review the command line pre-class exercise ([code](code/02_command_line_basics.md))
+* Git and GitHub ([slides](slides/02_git_github.pdf))
+* Intermediate command line
+
+**Homework:**
+* Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
+* **Optional:** Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
+
+**Git and Markdown Resources:**
+* [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
+* If you want to practice a lot of Git (and learn many more commands), [Git Immersion](http://gitimmersion.com/) looks promising.
+* If you want to understand how to contribute on GitHub, you first have to understand [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
+* [GitRef](http://gitref.org/) is my favorite reference guide for Git commands, and [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) is a shorter guide with commands grouped by workflow.
+* [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explains why GitHub is so popular among developers.
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a thorough set of Markdown examples with concise explanations. GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a simpler and more attractive guide, but is less comprehensive.
+
+**Command Line Resources:**
+* If you want to go much deeper into the command line, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) is a great book. The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" (a virtual machine with many more command line tools), as well as a long reference guide to popular command line tools.
+* If you want to do more at the command line with CSV files, try out [csvkit](http://csvkit.readthedocs.org/), which can be installed via `pip`.
+
+-----
+
+### Class 5: Fetching Data
+
+**After this lesson you will be able to:**
+* Articulate what JSON, APIs and Web scraping are and how they help us fetch data
+* Retrieve data from a website using the site’s APIs
+* Scrape a web page to extract data
+
+**Topics/Highlights:**
+* Pandas homework with the IMDb data due ([code](homework/05_pandas_homework_imbd.py))
+* Optional "human learning" exercise with the iris data due ([code](notebooks/06_human_learning_iris.ipynb))
+* Fetching data through APIs
+    * [APIs - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
+    * Code along - Access APIs on omdbapi.com [(code)](code/07_api.py)
+     * Exercise - Retrieve US Census language stats though APIs
+     * [Census.gov language statistics page with API description](http://www.census.gov/data/developers/data-sets/language-stats.html)
+* Grabbing data using Web scraping ([code](code/07_web_scraping.py))
+    * [APIs - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf)
+    * [IMDb: robots.txt](http://www.imdb.com/robots.txt)
+    * [Example web page](data/example.html)
+    * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
+
+
+**Homework:**
+* **Optional:** Complete the homework exercise listed in the [web scraping code](code/07_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Monday (11/23).
+* **Optional:** If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.)
+
+**API Resources:**
+* This Python script to [query the U.S. Census API](https://github.com/laurakurup/census-api) was created by a former DAT student. It's a bit more complicated than the example we used in class, it's very well commented, and it may provide a useful framework for writing your own code to query APIs.
+* [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
+* The [Data Science Toolkit](http://www.datasciencetoolkit.org/) is a collection of location-based and text-related APIs.
+* [API Integration in Python](https://realpython.com/blog/python/api-integration-in-python/) provides a very readable introduction to REST APIs.
+* Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), which powers [How-Old.net](http://how-old.net/), is a great example of how a machine learning API can be leveraged to produce a compelling web application.
+
+**Web Scraping Resources:**
+* The [Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) is incredibly thorough, but is hard to use as a reference guide. However, the section on [specifying a parser](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use) may be helpful if Beautiful Soup appears to be parsing a page incorrectly.
+* For more Beautiful Soup examples and tutorials, see [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), a former DAT student's well-commented notebook on [scraping Craigslist](https://github.com/Alexjmsherman/DataScience_GeneralAssembly/blob/master/Final_Project/1.%20Final_Project_Data%20Scraping.ipynb), this [notebook](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html) from Stanford's Text As Data course, and this [notebook](https://github.com/cs109/2014/blob/master/lectures/2014_09_23-lecture/data_scraping_transcript.ipynb) and associated [video](http://cm.dce.harvard.edu/2015/01/14328/L07/screen_H264LargeTalkingHead-16x9.shtml) from Harvard's Data Science course.
+* For a much longer web scraping tutorial covering Beautiful Soup, lxml, XPath, and Selenium, watch [Web Scraping with Python](https://www.youtube.com/watch?v=p1iX0uxM1w8) (3 hours 23 minutes) from PyCon 2014. The [slides](https://docs.google.com/presentation/d/1uHM_esB13VuSf7O1ScGueisnrtu-6usGFD3fs4z5YCE/edit#slide=id.p) and [code](https://github.com/kjam/python-web-scraping-tutorial) are also available.
+* For more complex web scraping projects, [Scrapy](http://scrapy.org/) is a popular application framework that works with Python. It has excellent [documentation](http://doc.scrapy.org/en/1.0/index.html), and here's a [tutorial](https://github.com/rdempsey/ddl-data-wrangling) with detailed slides and code.
+* [robotstxt.org](http://www.robotstxt.org/robotstxt.html) has a concise explanation of how to write (and read) the `robots.txt` file.
+* [import.io](https://import.io/) and [Kimono](https://www.kimonolabs.com/) claim to allow you to scrape websites without writing any code.
+* [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) and [How Netflix Reverse Engineered Hollywood](http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/?single_page=true) are two fun examples of how web scraping has been used to build interesting datasets.
+
+-----
+
+<a name="class-1"></a>
+### Class 6: Intro to regression
+* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
+* Linear regression ([notebook](notebooks/10_linear_regression.ipynb))
+    * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
+    * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
+* Why we should examine data well before building a model: Anscombes_Quartet [(notebook)](notebooks/10_Anscombes_Quartet.ipynb)
+* Feature engineering example: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
+
+**Homework:**
+* Your first project presentation is on Thursday (12/3)! Please submit a link to your project repository (with slides, code, data, and visualizations) by 6pm on Tuesday.
+* Complete the [homework assignment](homework/10_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv). This is due on Tuesday (12/8).
+
+**Linear Regression Resources:**
+* To go much more in-depth on linear regression, read Chapter 3 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) or read Kevin Markhams [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) to the key points in that chapter.
+* This [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is more detailed and mathematically thorough, and includes lots of good advice.
+* This is a relatively quick post on the [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
+* Setosa has an [interactive visualization](http://setosa.io/ev/ordinary-least-squares-regression/) of linear regression.
+<!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
+* Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md) -->
+
+-----
+<a name="knn"></a>
+### Class 8: K-Nearest Neighbors
+* Part 2 - Grabbing more data using Web scraping ([code](code/07_web_scraping.py))
+    * [Web sraping - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf)
+    * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
+* K-nearest neighbors (KNN) and scikit-learn ([notebook](notebooks/08_knn_sklearn.ipynb))
+* Exercise with NBA player data ([notebook](notebooks/08_nba_knn.ipynb), [data](/data/NBA_players_2015.csv), [data dictionary](/slides/07_nba_paper.pdf))
+
+
+**Homework:**
+* Quick Pandas exercise ([notebook](notebooks/08_pandas_review.ipynb)).  Complete this exercise to sharpen your understanding of dataframes.
+* Reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
+* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
+* Work on your project... your first project presentation is in less than two weeks!
+
+**KNN Resources:**
+* For a recap of the key points about KNN and scikit-learn, watch [Getting started in scikit-learn with the famous iris dataset](https://www.youtube.com/watch?v=hd1W4CyPX58) (15 minutes) and [Training a machine learning model with scikit-learn](https://www.youtube.com/watch?v=RlQuVL6-qe8) (20 minutes).
+* KNN supports [distance metrics](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html) other than Euclidean distance, such as [Mahalanobis distance](http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance), which [takes the scale of the data into account](http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html).
+* [A Detailed Introduction to KNN](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/) is a bit dense, but provides a more thorough introduction to KNN and its applications.
+* This lecture on [Image Classification](http://cs231n.github.io/classification/) shows how KNN could be used for detecting similar images, and also touches on topics we will cover in future classes (hyperparameter tuning and cross-validation).
+* Some applications for which KNN is well-suited are [object recognition](http://vlm1.uta.edu/~athitsos/nearest_neighbors/), [satellite image enhancement](http://land.umn.edu/documents/FS6.pdf), [document categorization](http://www.ceng.metu.edu.tr/~e120321/paper.pdf), and [gene expression analysis](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.208.993).
+
+**Seaborn Resources:**
+* To get started with Seaborn for visualization, the official website has a series of [detailed tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
+* [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) is a quick tour of some of the popular types of Seaborn plots.
+* [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) and [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) are both good examples of Seaborn usage on real-world data.
+
+-----
+
+<a name="logistic-regression></a>
+### Class 9: Logistic Regression
+* Yelp votes homework due ([notebook](homework/10_yelp_votes_homework.ipynb))
+* Logistic regression ([notebook](notebooks/12_logistic_regression.ipynb))
+    * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
+* Exercise with Titanic data ([notebook](notebooks/12_titanic_confusion.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
+* Confusion matrix ([slides](slides/12_confusion_matrix.pdf), [notebook](notebooks/12_titanic_confusion.ipynb))
+
+**Homework:**
+* If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
+* Video/reading assignment on [ROC curves and AUC](homework/13_roc_auc.md)
+* Video/reading assignment on [cross-validation](homework/13_cross_validation.md)
+
+**Logistic Regression Resources:**
+* To go deeper into logistic regression, read the first three sections of Chapter 4 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), or watch the [first three videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) (30 minutes) from that chapter.
+* For a math-ier explanation of logistic regression, watch the first seven videos (71 minutes) from week 3 of Andrew Ng's [machine learning course](https://www.coursera.org/learn/machine-learning/home/info), or read the [related lecture notes](http://www.holehouse.org/mlclass/06_Logistic_Regression.html) compiled by a student.
+* For more on interpreting logistic regression coefficients, read this excellent [guide](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm) by UCLA's IDRE and these [lecture notes](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf) from the University of New Mexico.
+* The scikit-learn documentation has a nice [explanation](http://scikit-learn.org/stable/modules/calibration.html) of what it means for a predicted probability to be calibrated.
+* [Supervised learning superstitions cheat sheet](http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html) is a very nice comparison of four classifiers we cover in the course (logistic regression, decision trees, KNN, Naive Bayes) and one classifier we do not cover (Support Vector Machines).
+
+**Confusion Matrix Resources:**
+* Kevin Markham's [simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) may be useful to you as a reference.
+* This blog post about [Amazon Machine Learning](https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/) contains a neat [graphic](https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png) showing how classification threshold affects different evaluation metrics.
+* This notebook (from another DAT course) explains [how to calculate "expected value"](https://github.com/podopie/DAT18NYC/blob/master/classes/13-expected_value_cost_benefit_analysis.ipynb) from a confusion matrix by treating it as a cost-benefit matrix.
+
+-----
+
+<a name="advanced-model></a>
+### Class 10: Advanced Model Evaluation
+* Data preparation ([notebook](notebooks/13_advanced_model_evaluation.ipynb))
+    * Handling missing values
+    * Handling categorical features (review)
+* ROC curves and AUC
+    * Discuss the [video/reading assignment](homework/13_roc_auc.md)
+    * Exercise: drawing an ROC curve ([slides](slides/13_drawing_roc.pdf))
+    * Return to the main notebook
+* Cross-validation
+    * Discuss the [video/reading assignment](homework/13_cross_validation.md) and associated [notebook](notebooks/13_cross_validation.ipynb)
+    * Return to the main notebook
+* Exercise with bank marketing data ([notebook](notebooks/13_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
+
+**Homework:**
+* Reading assignment on [spam filtering](homework/14_spam_filtering.md)
+* Read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides, or skim section 2.1 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php?stat_book=os) (12 pages). Pay specific attention to the following terms: probability, mutually exclusive, sample space, independent.
+* **Optional:** Try to gain an understanding of conditional probability from this [visualization](http://setosa.io/conditional/).
+* **Optional:** For an intuitive introduction to Bayes' theorem, read these posts on [wealth and happiness](http://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule/answer/Michael-Hochster), [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), or [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
+
+**ROC Resources:**
+* Rahul Patwari has a great video on [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutes).
+* [An introduction to ROC analysis](http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf) is a very readable paper on the topic.
+* ROC curves can be used across a wide variety of applications, such as [comparing different feature sets](http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf) for detecting fraudulent Skype users, and [comparing different classifiers](http://www.cse.ust.hk/nevinZhangGroup/readings/yi/Bradley_PR97.pdf) on a number of popular datasets.
+
+**Cross-Validation Resources:**
+* For more on cross-validation, read section 5.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (11 pages) or watch the related videos: [K-fold and leave-one-out cross-validation](https://www.youtube.com/watch?v=nZAM5OXrktY) (14 minutes), [cross-validation the right and wrong ways](https://www.youtube.com/watch?v=S06JpVoNaA0) (10 minutes).
+* If you want to understand the different variations of cross-validation, this [paper](http://www.jcheminf.com/content/pdf/1758-2946-6-10.pdf) examines and compares them in detail.
+* To learn how to use [GridSearchCV and RandomizedSearchCV](http://scikit-learn.org/stable/modules/grid_search.html) for parameter tuning, watch [How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA) (28 minutes) or read the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb).
+
+**Other Resources:**
+* scikit-learn has extensive documentation on [model evaluation](http://scikit-learn.org/stable/modules/model_evaluation.html).
+* [Counterfactual evaluation of machine learning models](https://www.youtube.com/watch?v=QWCSxAKR-h0) (45 minutes) is an excellent talk about the sophisticated way in which Stripe evaluates its fraud detection model. (These are the associated [slides](http://www.slideshare.net/MichaelManapat/counterfactual-evaluation-of-machine-learning-models).)
+* [Visualizing Machine Learning Thresholds to Make Better Business Decisions](http://blog.insightdatalabs.com/visualizing-classifier-thresholds/) demonstrates how visualizing precision, recall, and "queue rate" at different thresholds can help you to maximize the business value of your classifier.
+
+-----
+
+### Class 11: Regularization and Clustering
+**By the end of this lesson you will be able to:**
+
+* Standardize features
+* Cluster using K-means and DBSCAN
+* Compare "how good" the clustering models are
+
+**Topics/Highlights**
+
+* Advanced scikit-learn ([notebook](notebooks/19_advanced_sklearn.ipynb))
+    * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardizing features
+    * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
+* Clustering ([slides](slides/19_clustering.pdf), [notebook](notebooks/19_clustering.ipynb))
+    * K-means: [documentation](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html), [visualization 1](http://tech.nitoyon.com/en/blog/2013/11/07/k-means/), [visualization 2](http://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+    	* [My clustering of colors in an image.  Used a loop to generate clusters of 1 to 256 clusters. Made into an animated gif out of them.  Fun!](https://github.com/JamesByers/Cluster-analysis-of-image-RGB-colors/blob/master/Output%20Newport_seafood%20image%20and%20Animated%20GIF/Newport_seafood_k_means%2B%2B_cluster_animated.gif)
+    * DBSCAN: [documentation](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), [visualization](http://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
+
+**Homework:**
+* Reread [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html). (The "answers" to the [guiding questions](homework/solutions/09_bias_variance.md) have been posted and may be helpful to you.)
+* **Optional:** Watch these two excellent (and related) videos from Caltech's Learning From Data course: [bias-variance tradeoff](http://work.caltech.edu/library/081.html) (15 minutes) and [regularization](http://work.caltech.edu/library/121.html) (8 minutes).
+
+**scikit-learn Resources:**
+* This is a longer example of [feature scaling](https://github.com/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb) in scikit-learn, with additional discussion of the types of scaling you can use.
+* [Practical Data Science in Python](http://radimrehurek.com/data_science_python/) is a long and well-written notebook that uses a few advanced scikit-learn features: pipelining, plotting a learning curve, and pickling a model.
+* To learn how to use [GridSearchCV and RandomizedSearchCV](http://scikit-learn.org/stable/modules/grid_search.html) for parameter tuning, watch [How to find the best model parameters in scikit-learn](https://www.youtube.com/watch?v=Gol_qOgRqfA) (28 minutes) or read the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb).
+* Sebastian Raschka has a number of excellent resources for scikit-learn users, including a repository of [tutorials and examples](https://github.com/rasbt/pattern_classification), a library of machine learning [tools and extensions](http://rasbt.github.io/mlxtend/), a new [book](https://github.com/rasbt/python-machine-learning-book), and a semi-active [blog](http://sebastianraschka.com/blog/).
+* scikit-learn has an incredibly active [mailing list](https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html) that is often much more useful than Stack Overflow for researching functions and asking questions.
+* If you forget how to use a particular scikit-learn function that we have used in class, don't forget that this repository is fully searchable!
+
+**Clustering Resources:**
+* For a very thorough introduction to clustering, read chapter 8 (69 pages) of [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) (available as a free download), or browse through the chapter 8 slides.
+* scikit-learn's user guide compares many different [types of clustering](http://scikit-learn.org/stable/modules/clustering.html).
+* This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic6-Clustering.ppt) from Columbia's Data Mining class provides a good introduction to clustering, including hierarchical clustering and alternative distance metrics.
+* An Introduction to Statistical Learning has useful videos on [K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (17 minutes) and [hierarchical clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (15 minutes).
+* This is an excellent interactive visualization of [hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/).
+* This is a nice animated explanation of [mean shift clustering](http://spin.atomicobject.com/2015/05/26/mean-shift-clustering/).
+* The [K-modes algorithm](http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf) can be used for clustering datasets of categorical features without converting them to numerical values. Here is a [Python implementation](https://github.com/nicodv/kmodes).
+* Here are some fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
+
+-----
+<!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
+* Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
+### Class 1  older: Introduction to Data Science
+
+**By the end of this lesson you will be able to:**
 * Describe what data science is and the types of problems it can solve
 * Name at least three types of data
 * Describe at least two of the elements of the Final project requirements
@@ -104,6 +391,7 @@ Tuesday | Thursday
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
 * Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
 
+<!--
 -----
 
 ### Class 2: Command Line and Version Control
@@ -178,7 +466,7 @@ Tuesday | Thursday
     * Alcohol consumption by country ([data](data/drinks.csv), [article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
     * Reports of UFO sightings ([data](data/ufo.csv), [website](http://www.nuforc.org/webreports.html))
 
-<!-- * Project question exercise-->
+
 
 
 **Homework:**
@@ -209,7 +497,7 @@ Tuesday | Thursday
 * To learn more Pandas, read this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
 * If you want to go really deep into Pandas (and NumPy), read the book [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do), written by the creator of Pandas.
 
-<!-- * This notebook demonstrates the different types of [joins in Pandas](notebooks/05_pandas_merge.ipynb), for when you need to figure out how to merge two DataFrames. -->
+<!-- * This notebook demonstrates the different types of [joins in Pandas](notebooks/05_pandas_merge.ipynb), for when you need to figure out how to merge two DataFrames. 
 * This is a nice, short tutorial on [pivot tables](https://beta.oreilly.com/learning/pivot-tables) in Pandas.
 * For working with geospatial data in Python, [GeoPandas](http://geopandas.org/index.html) looks promising. This [tutorial](http://michelleful.github.io/code-blog/2015/04/24/sgmap/) uses GeoPandas (and scikit-learn) to build a "linguistic street map" of Singapore.
 
@@ -375,7 +663,7 @@ Tuesday | Thursday
 
 <!--
 * For a brief introduction to confidence intervals, hypothesis testing, p-values, and R-squared, as well as a comparison between scikit-learn code and [Statsmodels](http://statsmodels.sourceforge.net/) code, read my [DAT7 lesson on linear regression](https://github.com/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb). 
--->
+
 * Here is a useful explanation of [confidence intervals](http://www.quora.com/What-is-a-confidence-interval-in-laymans-terms/answer/Michael-Hochster) from Quora.
 * [Hypothesis Testing: The Basics](http://20bits.com/article/hypothesis-testing-the-basics) provides a nice overview of the topic, and John Rauser's talk on [Statistics Without the Agonizing Pain](https://www.youtube.com/watch?v=5Dnw46eC-0o) (12 minutes) gives a great explanation of how the null hypothesis is rejected.
 * Earlier this year, a major scientific journal banned the use of p-values:
@@ -506,8 +794,7 @@ Tuesday | Thursday
 <!--
 * Introduction to our [Kaggle competition](https://inclass.kaggle.com/c/dat8-stack-overflow)
     * Create a Kaggle account, join the competition using the invitation link, download the sample submission, and then submit the sample submission (which will require SMS account verification).
--->
-
+    
 **Homework:**
 * **Your draft paper is due on Thursday (12/22)!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
 * The [homework assignment](homework/14_yelp_review_text_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Tuesday (12/22)
@@ -523,7 +810,6 @@ Tuesday | Thursday
 -->
 <!--
 (Or, just read through the [slides](https://speakerdeck.com/justmarkham/allstate-purchase-prediction-challenge-on-kaggle).)
--->
 
 **NLP Resources:**
 * If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
@@ -531,7 +817,7 @@ Tuesday | Thursday
 * [Natural Language Processing with Python](http://www.nltk.org/book/) is the most popular book for going in-depth with the [Natural Language Toolkit](http://www.nltk.org/) (NLTK).
 * [A Smattering of NLP in Python](https://github.com/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb) provides a nice overview of NLTK
 
-<!-- , as does this [notebook from DAT5](https://github.com/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb).  -->
+<!-- , as does this [notebook from DAT5](https://github.com/justmarkham/DAT5/blob/master/notebooks/14_nlp.ipynb).
 * [spaCy](http://spacy.io/) is a newer Python library for text processing that is focused on performance (unlike NLTK).
 * If you want to get serious about NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) is a suite of tools (written in Java) that is highly regarded.
 * When working with a large text corpus in scikit-learn, [HashingVectorizer](http://scikit-learn.org/stable/modules/feature_extraction.html#vectorizing-a-large-text-corpus-with-the-hashing-trick) is a useful alternative to CountVectorizer.
@@ -540,7 +826,8 @@ Tuesday | Thursday
 * [Identifying Humorous Cartoon Captions](http://www.cs.huji.ac.il/~dshahaf/pHumor.pdf) is a readable paper about identifying funny captions submitted to the New Yorker Caption Contest.
 
 <!--
-* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) is an active Meetup group in our local area.  -->
+* [DC Natural Language Processing](http://www.meetup.com/DC-NLP/) is an active Meetup group in our local area.
+
 
 -----
 
@@ -752,3 +1039,38 @@ Tuesday | Thursday
 	* K-means
 	* DBSCAN
 	* [Hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/)
+-->
+<!--
+### Before the Course Begins
+* Install [Git](http://git-scm.com/downloads).
+* Create an account on the [GitHub](https://github.com/) website.
+    * It is not necessary to download "GitHub for Windows" or "GitHub for Mac"
+* Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
+    * If you choose not to use Anaconda, here is a list of the [Python packages](other/python_packages.md) you will need to install during the course.
+* We would like to check the setup of your laptop before the course begins:
+    * You can have your laptop checked prior to class on 10/27 from 5:00-5:45PM.
+    * Alternatively, you can walk through the [setup checklist](other/setup_checklist.md) yourself.
+* Once you receive an email invitation from Slack, join our "SEA-DAT1" Slack group and add your photo.
+* Practice Python using the resources below.
+
+### Additional Python Resources
+* [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
+* [Google's Python Class](https://developers.google.com/edu/python/): Slightly more advanced, including hours of useful lecture videos and downloadable exercises (with solutions).
+* [Introduction to Python](http://introtopython.org/): A series of IPython notebooks that do a great job explaining core Python concepts and data structures.
+* [Python for Informatics](http://www.pythonlearn.com/book.php): A very beginner-oriented book, with associated [slides](https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing) and [videos](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ).
+* [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/gist/rpmuller/5920182): Read through the Overview section for a very quick introduction to Python.
+* [Python Quick Reference Guide](other/python_reference): Kevin Markham's beginner-oriented guide that demonstrates Python concepts through short, well-commented examples.
+* [Beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) workshop code: Useful for review and reference.
+* [Python Tutor](http://pythontutor.com/): Allows you to visualize the execution of Python code.
+-->
+
+
+
+<!--
+### [Comparison of machine learning models](other/model_comparison.md)
+-->
+ 
+<!--
+### [Comparison of model evaluation procedures and metrics](other/model_evaluation_comparison.md)
+# http://3.bp.blogspot.com/-dofu6J0sZ8o/UrctKb69QdI/AAAAAAAADfg/79ewPecn5XU/s1600/scikit-learn-flow-chart.jpg
+-->
