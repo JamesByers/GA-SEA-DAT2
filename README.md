@@ -143,8 +143,8 @@ Before this lesson, you should already be able to:
 
 **Topics/Highlights**
 * Slack tour
-* Review the command line pre-class exercise ([code](code/02_command_line_basics.md))
-* Git and GitHub ([slides](slides/02_git_github.pdf))
+* Review the command line pre-class exercise ([code](code/04_command_line_basics.md))
+* Git and GitHub ([slides](slides/04_git_github.pdf))
 * Intermediate command line
 
 **Homework:**
