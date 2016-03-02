@@ -18,7 +18,7 @@ Tuesday | Thursday
 4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
 4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
 **Data science in the real world**|
-4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
+4/26: [L13 Natural Language Processing](#nlp) | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
 5/3: L15 Decision Trees | 5/5: L16 Ensembling, Bagging and Random Forests
 5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
 5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
@@ -364,6 +364,49 @@ Before this lesson, you should already be able to:
 * Here are some fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
 
 -----
+
+<a name="nlp"></a>
+### Class 13: Natural Language Processing
+* Natural language processing ([notebook](notebooks/15_natural_language_processing.ipynb))
+ * Vectorization/Tokenization
+ * Stopword Removal
+ * Other CountVectorizer options
+ * Intro to [TextBlob](https://textblob.readthedocs.org/en/dev/)
+  * Stemming and Lemmatization
+  * Term Frequency-Inverse Document Frequency (TF-IDF)
+  *  Using TF-IDF to Summarize a Yelp Review
+  *  Sentiment Analysis
+
+**Homework:**
+* **Your draft paper is due on Thursday (12/22)!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
+* The [homework assignment](homework/14_yelp_review_text_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Tuesday (12/22)
+
+**NLP Resources:**
+* If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
+* This slide deck defines many of the [key NLP terms](https://github.com/ga-students/DAT_SF_9/blob/master/16_Text_Mining/DAT9_lec16_Text_Mining.pdf).
+* [Natural Language Processing with Python](http://www.nltk.org/book/) is the most popular book for going in-depth with the [Natural Language Toolkit](http://www.nltk.org/) (NLTK).
+* [A Smattering of NLP in Python](https://github.com/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb) provides a nice overview of NLTK
+* [spaCy](http://spacy.io/) is a newer Python library for text processing that is focused on performance (unlike NLTK).
+* If you want to get serious about NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) is a suite of tools (written in Java) that is highly regarded.
+* When working with a large text corpus in scikit-learn, [HashingVectorizer](http://scikit-learn.org/stable/modules/feature_extraction.html#vectorizing-a-large-text-corpus-with-the-hashing-trick) is a useful alternative to CountVectorizer.
+* [Automatically Categorizing Yelp Businesses](http://engineeringblog.yelp.com/2015/09/automatically-categorizing-yelp-businesses.html) discusses how Yelp uses NLP and scikit-learn to solve the problem of uncategorized businesses.
+* [Modern Methods for Sentiment Analysis](http://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis) shows how "word vectors" can be used for more accurate sentiment analysis.
+* [Identifying Humorous Cartoon Captions](http://www.cs.huji.ac.il/~dshahaf/pHumor.pdf) is a readable paper about identifying funny captions submitted to the New Yorker Caption Contest.
+
+-----
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
 ### Class 1  older: Introduction to Data Science
