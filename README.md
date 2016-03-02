@@ -112,8 +112,8 @@ Before this lesson, you should already be able to:
 * Datascience workflow steps 2. Acquire and 3. Parse
 * Acquire and Parse with Pandas 
 	* demo 
-	* [Pandas codealong](#codealong)
-	* [Independent Practice](#lab)
+	* Pandas codealong (link to be added)
+	* Independent Practice(link to be added)
 
 **Homework:**
 * Review the code from a [beginner](code/00_python_beginner_workshop.py) and an [intermediate](code/00_python_intermediate_workshop.py) Python workshop. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python:
