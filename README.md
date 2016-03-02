@@ -260,7 +260,7 @@ Before this lesson, you should already be able to:
 
 -----
 
-<a name="logistic-regression></a>
+<a name="logistic-regression"></a>
 ### Class 9: Logistic Regression
 * Yelp votes homework due ([notebook](homework/10_yelp_votes_homework.ipynb))
 * Logistic regression ([notebook](notebooks/12_logistic_regression.ipynb))
