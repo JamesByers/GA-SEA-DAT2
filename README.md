@@ -25,7 +25,7 @@ Tuesday | Thursday
 
 ## Submission Forms
 
-### [      Exit ticket form]  (Add link to DAT2 exit ticket)
+###       Exit ticket form  (Add link to DAT2 exit ticket)
 <!--
 (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
 -->
