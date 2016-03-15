@@ -15,7 +15,7 @@ Example:
 #### ACQUIRE: Obtain the data (5 min)
 Each group will rotate through the other groups whiteboards and record the raw data on white boards to "collect the data".
 
-> Create an easy visual way for the other students to write their answers, or other option to help quick capture of the data.
+> Create an easy visual way for the other students to write their answers, or some other way to facilitate quick capture of the data.
 
 #### PRESENT: Communicate the results of your analysis (15 min)
 
