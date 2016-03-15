@@ -86,7 +86,7 @@ Before this lesson you should already be able to:
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
 	* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 	* [GA's student gallery of projects](https://gallery.generalassemb.ly)
-		* [Our very own Kevin McAlear's Hater News DAT project on the GA gallery](http://haternews.herokuapp.com/)
+		* [Our very own Kevin McAlear's Hater News DAT project on the GA gallery](haternews.co/?network=twitter)
 
 Homework:
 * Due Mar 17
