@@ -81,7 +81,7 @@ Before this lesson you should already be able to:
 * What is data science ([slides](slides/01_data_science_intro.pdf))
 	* Data Science Quiz
 * Data Science workflow
-	* Exercise (Apply the workflow)
+	* [Exercise (Apply the workflow)](other/workflow_exercise.md)
 * Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
 
 Homework:
