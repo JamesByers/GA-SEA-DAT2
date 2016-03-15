@@ -123,6 +123,7 @@ Before this lesson, you should already be able to:
 	* demo 
 	* Pandas codealong (link to be added)
 	* Independent Practice(link to be added)
+* Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
 
 **Resources:**
 * [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
