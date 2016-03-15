@@ -4,6 +4,6 @@ Questions that can have a broader benefit are better discussed on Slack with the
   * Kevin
     * Kevin's office hours TBD
   * Jim
-    *Monday 5:00-6:15 – (Skype or Google Hangouts)
-    *Thur 5:30-6:15 –(in person) Seattle Tower third floor
+    * Monday 5:00-6:15 – (Skype or Google Hangouts)
+    * Thur 5:30-6:15 –(in person) Seattle Tower third floor
 
