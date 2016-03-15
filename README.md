@@ -25,7 +25,7 @@ Tuesday | Thursday
 
 ## Submission Forms
 
-###       [Exit ticket form](https://docs.google.com/forms/d/1ccyiiym4XpQB65SbuZX7MYgI-WZKBPIPJNbRI-2SsPY/viewform)
+### [      Exit ticket form](https://docs.google.com/forms/d/1ccyiiym4XpQB65SbuZX7MYgI-WZKBPIPJNbRI-2SsPY/viewform)
 <!--
 (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
 -->
