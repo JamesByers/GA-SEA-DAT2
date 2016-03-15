@@ -13,19 +13,19 @@ Tuesday | Thursday
 3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line) **Project Discussion Deadline**
 3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
 **Foundations of data modeling**|
- | 3/31: [L06 Intro to Regression](#intro-to-regression) ** Project Question and Dataset Due**
+ | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
 4/5: L07 Evaluating Model Fit | 4/7: [L08 Intro to Classification - K nearest neighbor](#knn)
 4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
 4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
 **Data science in the real world**|
-4/26: L13 Natural Language Processing | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
-5/3: L15 Decision Trees | 5/5: L16 Ensembling, Bagging and Random Forests
+4/26: [L13 Natural Language Processing](#nlp) | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
+5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
 5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
 5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
 
 ## Submission Forms
 
-### [      Exit ticket form]  (Add link to DAT2 exit ticket)
+###       [Exit ticket form](https://docs.google.com/forms/d/1ccyiiym4XpQB65SbuZX7MYgI-WZKBPIPJNbRI-2SsPY/viewform)
 <!--
 (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
 -->
@@ -43,7 +43,7 @@ Tuesday | Thursday
 <!--
 #### [Machine learning estimator selection - a diagram](http://3.bp.blogspot.com/-dofu6J0sZ8o/UrctKb69QdI/AAAAAAAADfg/79ewPecn5XU/s1600/scikit-learn-flow-chart.jpg)
 -->
-
+#### Office hrs (to be added)
 #### [Machine learning model comparison](/other/model_comparison.md)
  &nbsp;
 
@@ -112,8 +112,8 @@ Before this lesson, you should already be able to:
 * Datascience workflow steps 2. Acquire and 3. Parse
 * Acquire and Parse with Pandas 
 	* demo 
-	* [Pandas codealong](#codealong)
-	* [Independent Practice](#lab)
+	* Pandas codealong (link to be added)
+	* Independent Practice(link to be added)
 
 **Homework:**
 * Review the code from a [beginner](code/00_python_beginner_workshop.py) and an [intermediate](code/00_python_intermediate_workshop.py) Python workshop. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python:
@@ -143,9 +143,9 @@ Before this lesson, you should already be able to:
 
 **Topics/Highlights**
 * Slack tour
-* Review the command line pre-class exercise ([code](code/02_command_line_basics.md))
-* Git and GitHub ([slides](slides/02_git_github.pdf))
-* Intermediate command line
+* Review the command line pre-class exercise ([code](code/04_command_line_basics.md))
+* Git and GitHub ([slides](slides/04_git_github.pdf))
+* Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md))
 
 **Homework:**
 * Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
@@ -260,7 +260,7 @@ Before this lesson, you should already be able to:
 
 -----
 
-<a name="logistic-regression></a>
+<a name="logistic-regression"></a>
 ### Class 9: Logistic Regression
 * Yelp votes homework due ([notebook](homework/10_yelp_votes_homework.ipynb))
 * Logistic regression ([notebook](notebooks/12_logistic_regression.ipynb))
@@ -364,6 +364,94 @@ Before this lesson, you should already be able to:
 * Here are some fun examples of clustering: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
 
 -----
+
+<a name="nlp"></a>
+### Class 13: Natural Language Processing
+* Natural language processing ([notebook](notebooks/13_natural_language_processing.ipynb))
+ * Vectorization/Tokenization
+ * Stopword Removal
+ * Other CountVectorizer options
+ * Intro to [TextBlob](https://textblob.readthedocs.org/en/dev/)
+  * Stemming and Lemmatization
+  * Term Frequency-Inverse Document Frequency (TF-IDF)
+  *  Using TF-IDF to Summarize a Yelp Review
+  *  Sentiment Analysis
+
+**Homework:**
+* **Your draft paper is due on Thursday (12/22)!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
+* The [homework assignment](homework/14_yelp_review_text_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Tuesday (12/22)
+
+**NLP Resources:**
+* If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
+* This slide deck defines many of the [key NLP terms](https://github.com/ga-students/DAT_SF_9/blob/master/16_Text_Mining/DAT9_lec16_Text_Mining.pdf).
+* [Natural Language Processing with Python](http://www.nltk.org/book/) is the most popular book for going in-depth with the [Natural Language Toolkit](http://www.nltk.org/) (NLTK).
+* [A Smattering of NLP in Python](https://github.com/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb) provides a nice overview of NLTK
+* [spaCy](http://spacy.io/) is a newer Python library for text processing that is focused on performance (unlike NLTK).
+* If you want to get serious about NLP, [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) is a suite of tools (written in Java) that is highly regarded.
+* When working with a large text corpus in scikit-learn, [HashingVectorizer](http://scikit-learn.org/stable/modules/feature_extraction.html#vectorizing-a-large-text-corpus-with-the-hashing-trick) is a useful alternative to CountVectorizer.
+* [Automatically Categorizing Yelp Businesses](http://engineeringblog.yelp.com/2015/09/automatically-categorizing-yelp-businesses.html) discusses how Yelp uses NLP and scikit-learn to solve the problem of uncategorized businesses.
+* [Modern Methods for Sentiment Analysis](http://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis) shows how "word vectors" can be used for more accurate sentiment analysis.
+* [Identifying Humorous Cartoon Captions](http://www.cs.huji.ac.il/~dshahaf/pHumor.pdf) is a readable paper about identifying funny captions submitted to the New Yorker Caption Contest.
+
+-----
+
+<a name="decision></a>
+### Class 15: Decision Trees
+**By the end of this lesson you will be able to:**
+
+* Create a Regression tree
+* Graph and interpret the decision tree
+
+**Topics/Highlights**
+
+* Decision trees ([notebook](notebooks/15_decision_trees.ipynb))
+* 	Part 1: Regression trees
+* Exercise with Capital Bikeshare data ([notebook](notebooks/5_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
+
+**Homework:**
+* Read the "Wisdom of the crowds" section from MLWave's post on [Human Ensemble Learning](http://mlwave.com/human-ensemble-learning/).
+* **Optional:** Read the abstract from [Do We Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.csail.mit.edu/papers/volume15/delgado14a/delgado14a.pdf), as well as Kaggle CTO Ben Hamner's [comment](https://news.ycombinator.com/item?id=8719723) about the paper, paying attention to the mentions of "Random Forests".
+
+**Resources:**
+* scikit-learn's documentation on [decision trees](http://scikit-learn.org/stable/modules/tree.html) includes a nice overview of trees as well as tips for proper usage.
+* For a more thorough introduction to decision trees, read section 4.3 (23 pages) of [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php). (Chapter 4 is available as a free download.)
+* If you want to go deep into the different decision tree algorithms, this slide deck contains [A Brief History of Classification and Regression Trees](https://drive.google.com/file/d/0B-BKohKl-jUYQ3RpMEF0OGRUU3RHVGpHY203NFd3Z19Nc1ZF/view).
+* [The Science of Singing Along](http://www.doc.gold.ac.uk/~mas03dm/papers/PawleyMullensiefen_Singalong_2012.pdf) contains a neat regression tree (page 136) for predicting the percentage of an audience at a music venue that will sing along to a pop song.
+* Decision trees are common in the medical field for differential diagnosis, such as this classification tree for [identifying psychosis](http://www.psychcongress.com/sites/naccme.com/files/images/pcn/saundras/psychosis_decision_tree.pdf).
+
+-----
+
+<a name="ensemble></a>
+### Class 16: Ensembling, Bagging and Random Forests
+
+* Finish decision trees lesson ([notebook](notebooks/15_decision_trees.ipynb))
+* Ensembling, Bagging and Random Forests ([notebook](notebooks/16_ensembling.ipynb))
+    * [Major League Baseball player data](data/hitters.csv) from 1986-87
+    * [Data dictionary](https://cran.r-project.org/web/packages/ISLR/ISLR.pdf) (see page 7)
+
+**Resources:**
+* scikit-learn's documentation on [ensemble methods](http://scikit-learn.org/stable/modules/ensemble.html) covers both "averaging methods" (such as bagging and Random Forests) as well as "boosting methods" (such as AdaBoost and Gradient Tree Boosting).
+* MLWave's [Kaggle Ensembling Guide](http://mlwave.com/kaggle-ensembling-guide/) is very thorough and shows the many different ways that ensembling can take place.
+* Browse the excellent [solution paper](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ChenglongChen/Kaggle_CrowdFlower/master/Doc/Kaggle_CrowdFlower_ChenglongChen.pdf) from the winner of Kaggle's [CrowdFlower competition](https://www.kaggle.com/c/crowdflower-search-relevance) for an example of the work and insight required to win a Kaggle competition.
+* [Interpretable vs Powerful Predictive Models: Why We Need Them Both](https://medium.com/@chris_bour/interpretable-vs-powerful-predictive-models-why-we-need-them-both-990340074979) is a short post on how the tactics useful in a Kaggle competition are not always useful in the real world.
+* [Not Even the People Who Write Algorithms Really Know How They Work](http://www.theatlantic.com/technology/archive/2015/09/not-even-the-people-who-write-algorithms-really-know-how-they-work/406099/) argues that the decreased interpretability of state-of-the-art machine learning models has a negative impact on society.
+* For an intuitive explanation of Random Forests, read Edwin Chen's answer to [How do random forests work in layman's terms?](http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
+* [Large Scale Decision Forests: Lessons Learned](http://blog.siftscience.com/blog/2015/large-scale-decision-forests-lessons-learned) is an excellent post from Sift Science about their custom implementation of Random Forests.
+* [Unboxing the Random Forest Classifier](http://nerds.airbnb.com/unboxing-the-random-forest-classifier/) describes a way to interpret the inner workings of Random Forests beyond just feature importances.
+* [Understanding Random Forests: From Theory to Practice](http://arxiv.org/pdf/1407.7502v3.pdf) is an in-depth academic analysis of Random Forests, including details of its implementation in scikit-learn.
+
+-----
+
+
+
+
+
+
+
+
+
+
+
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
 ### Class 1  older: Introduction to Data Science
