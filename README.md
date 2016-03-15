@@ -40,7 +40,7 @@ Tuesday | Thursday
 
 ## Other resources
 
-### [Office hours](other/office_hours.md)
+#### [Office hours](other/office_hours.md)
 
 #### [Machine learning estimator selection - a diagram](http://3.bp.blogspot.com/-dofu6J0sZ8o/UrctKb69QdI/AAAAAAAADfg/79ewPecn5XU/s1600/scikit-learn-flow-chart.jpg)
 
