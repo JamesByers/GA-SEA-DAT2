@@ -25,11 +25,11 @@ Tuesday | Thursday
 
 ## Submission Forms
 
-### [      Exit ticket form](https://docs.google.com/forms/d/1ccyiiym4XpQB65SbuZX7MYgI-WZKBPIPJNbRI-2SsPY/viewform)
+#### [      Exit ticket form](https://docs.google.com/forms/d/1ccyiiym4XpQB65SbuZX7MYgI-WZKBPIPJNbRI-2SsPY/viewform)
 <!--
 (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
 -->
-###   Homework and project submissions form (link to be added)
+####   Homework and project submissions form (link to be added)
 <!--
 (https://docs.google.com/forms/d/1S82LIibhiG2olZQb2C7iboqN5rb8wB6mQLFBg992eh4/viewform?usp=send_form)
 -->
