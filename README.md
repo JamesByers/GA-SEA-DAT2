@@ -84,6 +84,8 @@ Before this lesson you should already be able to:
 	* [Exercise (Apply the workflow)](other/workflow_exercise.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
 	* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
+	* [GA's student gallery of projects](https://gallery.generalassemb.ly)
+		* [Our very own Kevin McAlear's DAT project on the GA gallery](http://haternews.herokuapp.com/)
 * Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
 
 Homework:
