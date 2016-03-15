@@ -64,17 +64,6 @@ Before this lesson you should already be able to:
 * Apply the data science workflow to meet your classmates
 * Setup your development environment and review python basics
 
-<!--
-| TIMING  | TYPE  | TOPIC  |
-|:-:|---|---|
-| 20 min  | [Opening](#opening)  | Welcome to GA  |
-| 20 min  | [Introduction](#introduction1)   | What is Data Science  |
-| 10 min  | [Quiz](#quiz)   | Data Science Quiz  |
-| 25 min  | [Introduction](#introduction2)  | Data Science Workflow  |
-| 25 min  | [Guided Practice](#practice)  | Workflow Application  |
-| 65 min  | [Demo](#demo)   | Data Science Dev Environment  |
-| 5 min  | [Conclusion](#conclusion)  | Review  |
--->
 **Topics/Highlights**
 * Welcome from General Assembly!
 * Course overview ([slides](slides/01_course_overview.pdf))
@@ -86,7 +75,7 @@ Before this lesson you should already be able to:
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
 	* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 	* [GA's student gallery of projects](https://gallery.generalassemb.ly)
-		* Our very own Kevin McAlear's [Hater News DAT project](haternews.co/?network=twitter) on the GA gallery
+		* Our very own Kevin McAlear's [Hater News DAT project](http://haternews.co/?network=twitter) on the GA gallery
 
 Homework:
 * Due Mar 17
