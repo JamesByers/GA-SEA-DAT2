@@ -82,9 +82,14 @@ Before this lesson you should already be able to:
 	* Data Science Quiz
 * Data Science workflow ([slides](slides/01_data_science_intro.pdf))
 	* [Exercise (Apply the workflow)](other/workflow_exercise.md)
+* Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
+	* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
 
 Homework:
+* Due Mar 17
+	* Read through the information about the course project information to familiarize yourself with the [requirements](project/README.md) and [example projects](/project/project_examples/README.md).  Start thinking about what question you would like to answer in your project.
+		* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Due Tuesday March 22
 	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
