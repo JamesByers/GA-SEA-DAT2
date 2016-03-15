@@ -80,13 +80,13 @@ Before this lesson you should already be able to:
 * Course overview ([slides](slides/01_course_overview.pdf))
 * What is data science ([slides](slides/01_data_science_intro.pdf))
 	* Data Science Quiz
-* Data Science workflow
+* Data Science workflow ([slides](slides/01_data_science_intro.pdf))
 	* [Exercise (Apply the workflow)](other/workflow_exercise.md)
 * Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
 
 Homework:
 * Due Tuesday March 22
-	* Review each concepts and each line of code in these files of python code. [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python:
+	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
 	    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
 	    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
