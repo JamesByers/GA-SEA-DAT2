@@ -102,8 +102,8 @@ Homework:
 ### Class 2: Research Design and Pandas
 **Student pre-work**
 Before this lesson, you should already be able to:
-* Create, open, create and shutsown an IPython Notebook
 * Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
+<!-- * Create, open, create and shutdown an IPython Notebook-->
 
 **After this lesson, you will be able to:**
 * Define a problem and types of data
@@ -113,21 +113,42 @@ Before this lesson, you should already be able to:
 * Write an IPython Notebook to import, format and clean data using the Pandas Library
 
 **Topics/Highlights**
-* The why's and how's of a good question
-* Types of datasets (slides)
+* Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
+* The why's and how's of a good question ([slides](slides/02-experimental-design-and-pandas.pdf))
+* Types of datasets ([slides](slides/02-experimental-design-and-pandas.pdf))
 * Write a research question with raw data (exercise)
 * Datascience workflow steps 2. Acquire and 3. Parse
-* Acquire and Parse with Pandas 
-	* demo 
-	* Pandas codealong (link to be added)
-	* Independent Practice(link to be added)
-* Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
+* Acquire and Understand data with Pandas 
+	* Pandas concepts ([slides](slides/02-experimental-design-and-pandas.pdf))
+	* Pandas codealong ([notebook](notebooks/02_numpy_and_pandas.ipynb))
+	* Independent Practice ([notebook](notebooks/02_starter_code.ipynb))
+ 
+Homework:
+* Due Tuesday March 22
+	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
+	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
+	    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
+	    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
+	    * If you have more time, try missions 2 and 3 from [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) course.
+	    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message)
+	
 
 **Resources:**
+Python resources
 * [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
 * [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
 * If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
+
+**Pandas resources**
+Name | Description
+--- | ---
+[Official Pandas Tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html) | Wes & Company's selection of tutorials and lectures
+[Julia Evans Pandas Cookbook](https://github.com/jvns/pandas-cookbook) | Great resource with eamples from weather, bikes and 311 calls
+[Learn Pandas Tutorials](https://bitbucket.org/hrojas/learn-pandas) | A great series of Pandas tutorials from Dave Rojas
+[Research Computing Python Data PYNBs](https://github.com/ResearchComputing/Meetup-Fall-2013/tree/master/python) | A super awesome set of python notebooks from a meetup-based course exclusively devoted to pandas
+
+
 
 ### Class 3: Statistics fundamentals I (with Pandas)
 
