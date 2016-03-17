@@ -118,7 +118,7 @@ Before this lesson, you should already be able to:
 * The why's and how's of a good question ([slides](slides/02-experimental-design-and-pandas.pdf))
 * Types of datasets ([slides](slides/02-experimental-design-and-pandas.pdf))
 * Write a research question with raw data (exercise)
-* Datascience workflow steps 2. Acquire and 3. Parse
+* Data science workflow steps 2. Acquire and 3. Understand the data
 * Acquire and Understand data with Pandas 
 	* Pandas concepts ([slides](slides/02-experimental-design-and-pandas.pdf))
 	* Pandas codealong ([notebook](notebooks/02_numpy_and_pandas.ipynb))
