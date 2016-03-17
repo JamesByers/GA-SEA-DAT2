@@ -79,7 +79,7 @@ Before this lesson you should already be able to:
 	* [GA's student gallery of projects](https://gallery.generalassemb.ly)
 		* Our very own Kevin McAlear's [Hater News DAT project](http://haternews.co/?network=twitter) on the GA gallery
 
-Homework:
+**Homework:**
 * Due Mar 17
 	* Read through the information about the course project information to familiarize yourself with the [requirements](project/README.md) and [example projects](/project/project_examples/README.md).  Start thinking about what question you would like to answer in your project.
 		* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
@@ -124,7 +124,7 @@ Before this lesson, you should already be able to:
 	* Pandas codealong ([notebook](notebooks/02_numpy_and_pandas.ipynb))
 	* Independent Practice ([notebook](notebooks/02_starter_code.ipynb))
  
-Homework:
+**Homework:**
 * Due Tuesday March 22
 	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
@@ -135,13 +135,14 @@ Homework:
 	
 
 **Resources:**
-Python resources
-* [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
-* [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
-* [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
-* If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
 
-**Pandas resources**
+Python resources
+		* [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
+		* [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
+		* [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
+		* If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
+
+Pandas resources
 
 Name | Description
 --- | ---
