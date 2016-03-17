@@ -103,6 +103,7 @@ Homework:
 **Student pre-work**
 Before this lesson, you should already be able to:
 * Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
+
 <!-- * Create, open, create and shutdown an IPython Notebook-->
 
 **After this lesson, you will be able to:**
@@ -141,6 +142,7 @@ Python resources
 * If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
 
 **Pandas resources**
+
 Name | Description
 --- | ---
 [Official Pandas Tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html) | Wes & Company's selection of tutorials and lectures
