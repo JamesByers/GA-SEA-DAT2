@@ -10,7 +10,7 @@ Tuesday | Thursday
 --- | ---
 **Research Design and Exploratory data analysis**|
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: [L03 Statistics fundamentals (with Pandas)](#stat_fund) | 3/24: [L04 Command Line and Version Control](#command-line)
+3/22: [L03 Statistics fundamentals](#stat_fund) | 3/24: [L04 Command Line and Version Control](#command-line)
 3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
@@ -155,9 +155,8 @@ Name | Description
 
 -----
 
-
 <a name="stat_fund"></a>
-### Class 3: Statistics fundamentals (with Pandas)
+### Class 3: Statistics fundamentals
 **By the end of this lesson you will be able to:**
 * Use NumPy and Pandas libraries to analyze datasets using basic summary statistics: mean, median, mode, max, min, quartile, inter-quartile range, variance, standard deviation, and correlation
 * Create data visualizations - including: line graphs, box plots, and histograms- to discern characteristics and trends in a dataset
