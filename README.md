@@ -10,7 +10,7 @@ Tuesday | Thursday
 --- | ---
 **Research Design and Exploratory data analysis**|
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line)
+3/22: [L03 Statistics fundamentals](#stat_fund) | 3/24: [L04 Command Line and Version Control](#command-line)
 3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
@@ -126,6 +126,7 @@ Before this lesson, you should already be able to:
  
 **Homework:**
 * Due Tuesday March 22
+	* To turn in homework,  attach files to a personal message in Slack to Jim Byers and Kevin Mcalear 
 	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
 	    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
@@ -152,9 +153,40 @@ Name | Description
 [Learn Pandas Tutorials](https://bitbucket.org/hrojas/learn-pandas) | A great series of Pandas tutorials from Dave Rojas
 [Research Computing Python Data PYNBs](https://github.com/ResearchComputing/Meetup-Fall-2013/tree/master/python) | A super awesome set of python notebooks from a meetup-based course exclusively devoted to pandas
 
+-----
 
+<a name="stat_fund"></a>
+### Class 3: Statistics fundamentals
+**By the end of this lesson you will be able to:**
+* Use NumPy and Pandas libraries to analyze datasets using basic summary statistics: mean, median, mode, max, min, quartile, inter-quartile range, variance, standard deviation, and correlation
+* Create data visualizations - including: line graphs, box plots, and histograms- to discern characteristics and trends in a dataset
+* Identify a normal distribution within a dataset using summary statistics and visualization
 
-### Class 3: Statistics fundamentals I (with Pandas)
+**Topics/Highlights**
+* Review Homework
+
+<!-- Python homework
+Pandas notebook homework -->
+* Statistics refresher
+	* Basic Statistics with Pandas
+	* [(slides)](slides/03_statistics_fundamentals.pdf)
+	* [(exercises)](notebooks/03_basic_stats_exercises.ipynb)
+	* [(code-along)](notebooks/03_statistics_demo.ipynb)
+* Correlation
+	* Correlation is not causation
+	* Visualization with Panda
+
+<!--
+Basic statistics with Pandas (and exercise)
+Correlation
+Visualization with Pandas
+Ice cream data set
+Pair independent practice
+--->
+
+**Homework:**
+* Due Tuesday March 24
+	* Complete the command line pre-class exercise ([code](code/04_command_line_basics.md)) 
 
 -----
 
@@ -167,7 +199,6 @@ Name | Description
 * use more advanced command line commands such as Grep and |
 
 **Topics/Highlights**
-* Slack tour
 * Review the command line pre-class exercise ([code](code/04_command_line_basics.md))
 * Git and GitHub ([slides](slides/04_git_github.pdf))
 * Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md))
