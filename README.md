@@ -169,9 +169,9 @@ Name | Description
 Pandas notebook homework -->
 * Statistics refresher
 	* Basic Statistics with Pandas
-	* [(Slides)](slides/03_statistics_fundamentals.pdf)
-	* [(exercises)](03_basic_stats_exercises.ipynb)
-	* [(code-along)](03_statistics_demo.ipynb)
+	* [(slides)](slides/03_statistics_fundamentals.pdf)
+	* [(exercises)](notebooks/03_basic_stats_exercises.ipynb)
+	* [(code-along)](notebooks/03_statistics_demo.ipynb)
 * Correlation
 	* Correlation is not causation
 	* Visualization with Panda
