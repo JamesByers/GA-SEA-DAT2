@@ -10,7 +10,7 @@ Tuesday | Thursday
 --- | ---
 **Research Design and Exploratory data analysis**|
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line)
+3/22: [L03 Statistics fundamentals (with Pandas)](#stat_fund) | 3/24: [L04 Command Line and Version Control](#command-line)
 3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
@@ -154,8 +154,40 @@ Name | Description
 [Research Computing Python Data PYNBs](https://github.com/ResearchComputing/Meetup-Fall-2013/tree/master/python) | A super awesome set of python notebooks from a meetup-based course exclusively devoted to pandas
 
 
+<a name="stat_fund"></a>
+### Class 3: Statistics fundamentals (with Pandas)
 
-### Class 3: Statistics fundamentals I (with Pandas)
+**By the end of this lesson you will be able to:**
+* Use NumPy and Pandas libraries to analyze datasets using basic summary statistics: mean, median, mode, max, min, quartile, inter-quartile range, variance, standard deviation, and correlation
+* Create data visualizations - including: line graphs, box plots, and histograms- to discern characteristics and trends in a dataset
+* Identify a normal distribution within a dataset using summary statistics and visualization
+
+**Topics/Highlights**
+* Review Homework
+
+<!-- Python homework
+Pandas notebook homework -->
+
+* Statistics refresher
+	* Basic Statistics with Pandas
+	* [(Slides)](slides/03_statistics_fundamentals.pdf)
+	* [(exercises)](03_basic_stats_exercises.ipynb)
+	* [(code-along)](03_statistics_demo.ipynb)
+* Correlation
+	* Correlation is not causation
+	* Visualization with Panda
+
+<!--
+Basic statistics with Pandas (and exercise)
+Correlation
+Visualization with Pandas
+Ice cream data set
+Pair independent practice
+--->
+
+**Homework:**
+* Due Tuesday March 24
+	* Complete the command line pre-class exercise ([code](code/04_command_line_basics.md)) 
 
 -----
 
@@ -168,7 +200,6 @@ Name | Description
 * use more advanced command line commands such as Grep and |
 
 **Topics/Highlights**
-* Slack tour
 * Review the command line pre-class exercise ([code](code/04_command_line_basics.md))
 * Git and GitHub ([slides](slides/04_git_github.pdf))
 * Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md))
