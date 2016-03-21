@@ -158,7 +158,6 @@ Name | Description
 
 <a name="stat_fund"></a>
 ### Class 3: Statistics fundamentals (with Pandas)
-
 **By the end of this lesson you will be able to:**
 * Use NumPy and Pandas libraries to analyze datasets using basic summary statistics: mean, median, mode, max, min, quartile, inter-quartile range, variance, standard deviation, and correlation
 * Create data visualizations - including: line graphs, box plots, and histograms- to discern characteristics and trends in a dataset
@@ -169,7 +168,6 @@ Name | Description
 
 <!-- Python homework
 Pandas notebook homework -->
-
 * Statistics refresher
 	* Basic Statistics with Pandas
 	* [(Slides)](slides/03_statistics_fundamentals.pdf)
