@@ -173,8 +173,9 @@ Pandas notebook homework -->
 	* [(exercises)](notebooks/03_basic_stats_exercises.ipynb)
 	* [(code-along)](notebooks/03_statistics_demo.ipynb)
 * Correlation
-	* Correlation is not causation
-	* Visualization with Panda
+	* What is correlation [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
+	* Correlation is not causation (fun with a commom misconception)
+	* Visualization with Pandas (notebook)
 
 <!--
 Basic statistics with Pandas (and exercise)
