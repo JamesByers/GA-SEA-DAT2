@@ -170,7 +170,7 @@ Name | Description
 * Statistics refresher
 	* Basic Statistics with Pandas
 		* Statistics Fundamentals [(slides)](slides/03_statistics_fundamentals.pdf)
-		* Code-along [(notebook)](notebooks/03_basic_stats_.ipynb)
+		* Code-along [(notebook)](notebooks/03_basic_stats.ipynb)
 		* Stats demo [(notebook)](notebooks/03_statistics_demo.ipynb)
 	* Correlation
 		* What is correlation? [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
