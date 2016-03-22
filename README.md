@@ -13,14 +13,14 @@ Tuesday | Thursday
 3/22: [L03 Statistics fundamentals](#stat_fund) | 3/24: [L04 Command Line and Version Control](#command-line)
 3/29: [L05 Fetching Data](#fetching-data), **Project Discussion Deadline** |
 **Foundations of data modeling**|
- | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
+ | 3/31: [L06 Intro to Regression](#intro-to-regression), **Project Question and Dataset Due**
 4/5: L07 Evaluating Model Fit | 4/7: [L08 Intro to Classification - K nearest neighbor](#knn)
 4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
 4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
 **Data science in the real world**|
 4/26: [L13 Natural Language Processing](#nlp) | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
 5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
-5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
+5/10: L17 Modeling with Time Series Data I, **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
 5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
 
 ## Submission Forms
@@ -175,7 +175,7 @@ Name | Description
 	* Correlation
 		* What is correlation? [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
 			* Correlation is not causation (fun with a commom misconception)
-		* Visualization with Pandas [(notebook)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb)
+		* Visualization with Pandas [(notebook)](notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb)
 
 <!--
 Basic statistics with Pandas (and exercise)
