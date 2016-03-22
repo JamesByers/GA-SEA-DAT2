@@ -169,7 +169,7 @@ Name | Description
 	* Independent Practice [(02_starter_code.ipynb)](notebooks/02_starter_code.ipynb)
 * Statistics refresher
 	* Basic Statistics with Pandas
-		* [(slides)](slides/03_statistics_fundamentals.pdf)
+		* Statistics Fundamentals [(slides)](slides/03_statistics_fundamentals.pdf)
 		* Code-along [(notebook)](notebooks/03_basic_stats_.ipynb)
 		* Stats demo [(notebook)](notebooks/03_statistics_demo.ipynb)
 	* Correlation
