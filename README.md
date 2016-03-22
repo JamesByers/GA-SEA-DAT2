@@ -164,9 +164,9 @@ Name | Description
 
 **Topics/Highlights**
 * Review Homework
-
-<!-- Python homework
-Pandas notebook homework -->
+	* [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py)
+	* [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py)
+	* Independent Practice [(02_starter_code.ipynb)](notebooks/02_starter_code.ipynb)
 * Statistics refresher
 	* Basic Statistics with Pandas
 		* [(slides)](slides/03_statistics_fundamentals.pdf)
@@ -175,7 +175,7 @@ Pandas notebook homework -->
 	* Correlation
 		* What is correlation? [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
 			* Correlation is not causation (fun with a commom misconception)
-		* Visualization with Pandas [(notebook)](03_correlation_exercise_ice_cream_and_car_data.ipynb)
+		* Visualization with Pandas [(notebook)](notebook/03_correlation_exercise_ice_cream_and_car_data.ipynb)
 
 <!--
 Basic statistics with Pandas (and exercise)
