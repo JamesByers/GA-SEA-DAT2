@@ -177,17 +177,12 @@ Name | Description
 			* Correlation is not causation (fun with a commom misconception)
 		* Visualization with Pandas [(notebook)](notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb)
 
-<!--
-Basic statistics with Pandas (and exercise)
-Correlation
-Visualization with Pandas
-Ice cream data set
-Pair independent practice
---->
-
 **Homework:**
 * Due Tuesday March 24
-	* Complete the command line pre-class exercise ([code](code/04_command_line_basics.md)).
+	* Windows users install this prior to starting the command line pre-class exercise as you will need the "bash" type command window on your Windows laptop in order to do the exercise and later to use git
+    		* [Git Bash](http://git-scm.com/download/win) installer.  We recommend this instead of Git Shell (which uses Powershell).
+    		* For Mac users, you will probably be using Terminal, or another command line tool of your choice.  It already is a bash type command line interpreter.  No need to load anything.  Git is part of the MAC OS so is already installed and reay to use.
+	* Complete the command line pre-class exercise ([code](code/04_command_line_basics.md))
 	* Find one link to a resource about statistics that you find especially useful and send it in a slack message to Jim and Kevin.  Note this will not be graded against the [homework evaluation criteria](https://docs.google.com/spreadsheets/d/19XaVllCETEWyROSMHIShVWgUqK-kbZkvSeCzjK7yezI/edit?usp=sharing).  Jim will share these links back out on our repo so all can benefit.
 
 **Pandas Resources:**
