@@ -170,7 +170,8 @@ Pandas notebook homework -->
 * Statistics refresher
 	* Basic Statistics with Pandas
 		* [(slides)](slides/03_statistics_fundamentals.pdf)
-		* Code-along [(code-along)](notebooks/03_basic_stats_exercises.ipynb)
+		* Code-along [(notebook)](notebooks/03_basic_stats_.ipynb)
+		* Stats demo [(notebook)](https://github.com/JamesByers/GA-SEA-DAT2/raw/master/notebooks/03_statistics_demo.ipynb)
 
 <!--	* [(code-along)](notebooks/03_statistics_demo.ipynb) -->>
 * Correlation
