@@ -169,13 +169,14 @@ Name | Description
 Pandas notebook homework -->
 * Statistics refresher
 	* Basic Statistics with Pandas
-	* [(slides)](slides/03_statistics_fundamentals.pdf)
-	* [(exercises)](notebooks/03_basic_stats_exercises.ipynb)
-	* [(code-along)](notebooks/03_statistics_demo.ipynb)
+		* [(slides)](slides/03_statistics_fundamentals.pdf)
+		* Code-along [(code-along)](notebooks/03_basic_stats_exercises.ipynb)
+
+<!--	* [(code-along)](notebooks/03_statistics_demo.ipynb) -->>
 * Correlation
-	* What is correlation [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
-	* Correlation is not causation (fun with a commom misconception)
-	* Visualization with Pandas (notebook)
+	* What is correlation? [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
+		* Correlation is not causation (fun with a commom misconception)
+	* Visualization with Pandas [(notebook)](03_correlation_exercise_ice_cream_and_car_data.ipynb)
 
 <!--
 Basic statistics with Pandas (and exercise)
