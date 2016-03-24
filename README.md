@@ -219,7 +219,7 @@ Name | Description
 * Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md))
 
 **Homework:**
-* Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
+* Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
 * **Optional:** Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
 
 **Git and Markdown Resources:**
