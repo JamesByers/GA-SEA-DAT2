@@ -216,7 +216,7 @@ Name | Description
 **Topics/Highlights**
 * Review the command line pre-class exercise ([code](code/04_command_line_basics.md))
 * Git and GitHub ([slides](slides/04_git_github.pdf))
-* Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md))
+* Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md)
 
 **Homework:**
 * Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
