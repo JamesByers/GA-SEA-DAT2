@@ -10,17 +10,17 @@ Tuesday | Thursday
 --- | ---
 **Research Design and Exploratory data analysis**|
 3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line)
-3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
+3/22: [L03 Statistics fundamentals](#stat_fund) | 3/24: [L04 Command Line and Version Control](#command-line)
+3/29: [L05 Fetching Data](#fetching-data), **Project Discussion Deadline** |
 **Foundations of data modeling**|
- | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
+ | 3/31: [L06 Intro to Regression](#intro-to-regression), **Project Question and Dataset Due**
 4/5: L07 Evaluating Model Fit | 4/7: [L08 Intro to Classification - K nearest neighbor](#knn)
 4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
 4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
 **Data science in the real world**|
 4/26: [L13 Natural Language Processing](#nlp) | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
 5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
-5/10: L17 Modeling with Time Series Data I **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
+5/10: L17 Modeling with Time Series Data I, **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
 5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
 
 ## Submission Forms
@@ -79,7 +79,7 @@ Before this lesson you should already be able to:
 	* [GA's student gallery of projects](https://gallery.generalassemb.ly)
 		* Our very own Kevin McAlear's [Hater News DAT project](http://haternews.co/?network=twitter) on the GA gallery
 
-Homework:
+**Homework:**
 * Due Mar 17
 	* Read through the information about the course project information to familiarize yourself with the [requirements](project/README.md) and [example projects](/project/project_examples/README.md).  Start thinking about what question you would like to answer in your project.
 		* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
@@ -102,8 +102,9 @@ Homework:
 ### Class 2: Research Design and Pandas
 **Student pre-work**
 Before this lesson, you should already be able to:
-* Create, open, create and shutsown an IPython Notebook
 * Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
+
+<!-- * Create, open, create and shutdown an IPython Notebook-->
 
 **After this lesson, you will be able to:**
 * Define a problem and types of data
@@ -113,23 +114,97 @@ Before this lesson, you should already be able to:
 * Write an IPython Notebook to import, format and clean data using the Pandas Library
 
 **Topics/Highlights**
-* The why's and how's of a good question
-* Types of datasets (slides)
-* Write a research question with raw data (exercise)
-* Datascience workflow steps 2. Acquire and 3. Parse
-* Acquire and Parse with Pandas 
-	* demo 
-	* Pandas codealong (link to be added)
-	* Independent Practice(link to be added)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
+* The why's and how's of a good question ([slides](slides/02-experimental-design-and-pandas.pdf))
+* Types of datasets ([slides](slides/02-experimental-design-and-pandas.pdf))
+* Write a research question with raw data (exercise)
+* Data science workflow steps 2. Acquire and 3. Understand the data
+* Acquire and Understand data with Pandas 
+	* Pandas concepts ([slides](slides/02-experimental-design-and-pandas.pdf))
+	* Pandas codealong ([notebook](notebooks/02_numpy_and_pandas.ipynb))
+	* Independent Practice ([notebook](notebooks/02_starter_code.ipynb))
+ 
+**Homework:**
+* Due Tuesday March 22
+	* To turn in homework,  attach files to a personal message in Slack to Jim Byers and Kevin Mcalear 
+	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
+	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
+	    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
+	    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
+	    * If you have more time, try missions 2 and 3 from [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) course.
+	    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message)
+	
 
 **Resources:**
+
+Python resources
+
 * [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
 * [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) is a great flowchart explaining how to debug Python errors.
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/) is Python's "classic" style guide, and is worth a read if you want to write readable code that is consistent with the rest of the Python community.
 * If you want to understand Python at a deeper level, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) and [Python Names and Values](http://nedbatchelder.com/text/names1.html) are excellent presentations.
 
-### Class 3: Statistics fundamentals I (with Pandas)
+Pandas resources
+
+Name | Description
+--- | ---
+[Official Pandas Tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html) | Wes & Company's selection of tutorials and lectures
+[Julia Evans Pandas Cookbook](https://github.com/jvns/pandas-cookbook) | Great resource with eamples from weather, bikes and 311 calls
+[Learn Pandas Tutorials](https://bitbucket.org/hrojas/learn-pandas) | A great series of Pandas tutorials from Dave Rojas
+[Research Computing Python Data PYNBs](https://github.com/ResearchComputing/Meetup-Fall-2013/tree/master/python) | A super awesome set of python notebooks from a meetup-based course exclusively devoted to pandas
+
+-----
+
+<a name="stat_fund"></a>
+### Class 3: Statistics fundamentals
+**By the end of this lesson you will be able to:**
+* Use NumPy and Pandas libraries to analyze datasets using basic summary statistics: mean, median, mode, max, min, quartile, inter-quartile range, variance, standard deviation, and correlation
+* Create data visualizations - including: line graphs, box plots, and histograms- to discern characteristics and trends in a dataset
+* Identify a normal distribution within a dataset using summary statistics and visualization
+
+**Topics/Highlights**
+* Review Homework
+	* [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py)
+	* [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py)
+	* Independent Practice [(02_starter_code.ipynb)](notebooks/02_starter_code.ipynb)
+* Statistics refresher
+	* Basic Statistics with Pandas
+		* Statistics Fundamentals [(slides)](slides/03_statistics_fundamentals.pdf)
+		* Code-along [(notebook)](notebooks/03_basic_stats.ipynb)
+		* Stats demo [(notebook)](notebooks/03_statistics_demo.ipynb)
+	* Correlation
+		* What is correlation? [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
+			* Correlation is not causation (fun with a commom misconception!)
+		* Visualization with Pandas [(notebook)](notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb)
+
+**Homework:**
+* Due Tuesday March 24
+	* *Windows users*, install [Git Bash](http://git-scm.com/download/win) prior to starting the command line pre-class exercise*** as you will need the "bash" type command window on your Windows laptop in order to do the exercise and later to use git
+		* We recommend Git Bash instead of Git Shell (which uses Powershell).
+		* For Mac users, you will probably be using Terminal, or another command line application of your choice.  It already is a bash type command line interpreter.  No need to load anything.  Git is part of the MAC OS so is already installed and ready to use.
+	* Complete GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows)
+	* Complete the command line pre-class exercise ([code](code/04_command_line_basics.md)).  You do not need to turn in this homework
+	* Find one link to a resource about statistics that you find especially useful and send it in a slack message to Jim and Kevin.  Note this will not be graded against the [homework evaluation criteria](https://docs.google.com/spreadsheets/d/19XaVllCETEWyROSMHIShVWgUqK-kbZkvSeCzjK7yezI/edit?usp=sharing).  Jim will share these links back out on our repo so all can benefit.
+
+**Statistics Resources:**
+* [Descriptions of Statistics terms in a straight forward way](http://stattrek.com/statistics/dictionary.aspx?definition=Probability_density_function) including density plot
+
+**Pandas Resources:**
+* To learn more Pandas, read this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
+* If you want to go really deep into Pandas (and NumPy), read the book [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do), written by the creator of Pandas.
+
+<!-- * This notebook demonstrates the different types of [joins in Pandas](notebooks/05_pandas_merge.ipynb), for when you need to figure out how to merge two DataFrames. -->
+* This is a nice, short tutorial on [pivot tables](https://beta.oreilly.com/learning/pivot-tables) in Pandas.
+* For working with geospatial data in Python, [GeoPandas](http://geopandas.org/index.html) looks promising. This [tutorial](http://michelleful.github.io/code-blog/2015/04/24/sgmap/) uses GeoPandas (and scikit-learn) to build a "linguistic street map" of Singapore.
+
+**Visualization Resources:**
+* Watch [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk) (18 minutes) for an excellent example of why visualization is useful for understanding your data.
+* For more on Pandas plotting, read this [notebook](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_7-Plotting-with-Pandas.ipynb) or the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
+* To learn how to customize your plots further, browse through this [notebook on matplotlib](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_4-Matplotlib.ipynb) or this [similar notebook](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb).
+* Read [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html) for a useful comparison of Matplotlib, Pandas, Seaborn, ggplot, Bokeh, Pygal, and Plotly.
+* To explore different types of visualizations and when to use them, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) and [The Graphic Continuum](http://www.coolinfographics.com/storage/post-images/The-Graphic-Continuum-POSTER.jpg) are nice one-page references, and the interactive [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) has handy filtering capabilities.
+* This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt) from Columbia's Data Mining class contains lots of good advice for properly using different types of visualizations.
+* [Harvard's Data Science course](http://cs109.github.io/2014/) includes an excellent lecture on [Visualization Goals, Data Types, and Statistical Graphs](http://cm.dce.harvard.edu/2015/01/14328/L03/screen_H264LargeTalkingHead-16x9.shtml) (83 minutes), for which the [slides](https://docs.google.com/file/d/0B7IVstmtIvlHLTdTbXdEVENoRzQ/edit) are also available.
 
 -----
 
@@ -142,13 +217,12 @@ Before this lesson, you should already be able to:
 * use more advanced command line commands such as Grep and |
 
 **Topics/Highlights**
-* Slack tour
 * Review the command line pre-class exercise ([code](code/04_command_line_basics.md))
 * Git and GitHub ([slides](slides/04_git_github.pdf))
-* Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md))
+* Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md)
 
 **Homework:**
-* Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
+* Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
 * **Optional:** Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
 
 **Git and Markdown Resources:**
