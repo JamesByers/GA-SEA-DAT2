@@ -1,4 +1,4 @@
-## Class 2 Homework: Command Line Chipotle
+## Class 4 Homework: Command Line Chipotle
 
 #### Submitting Your Homework
 
