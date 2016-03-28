@@ -285,11 +285,11 @@ Name | Description
 
 <a name="class-1"></a>
 ### Class 6: Intro to regression
-* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
-* Linear regression ([notebook](notebooks/10_linear_regression.ipynb))
+* Machine learning exercise ([article](http://blog.dominodatalab.com/06-interesting-uses-of-data-science/))
+* Linear regression ([notebook](notebooks/06_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
     * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
-* Why we should examine data well before building a model: Anscombes_Quartet [(notebook)](notebooks/10_Anscombes_Quartet.ipynb)
+* Why we should examine data well before building a model: Anscombes_Quartet [(notebook)](notebooks/06_Anscombes_Quartet.ipynb)
 * Feature engineering example: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
 
 **Homework:**
