@@ -252,7 +252,7 @@ Name | Description
 * Fetching data through APIs
     * [APIs - key concepts (slides)](slides/05_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
     * Code along - Access APIs on omdbapi.com [(code)](code/05_api.py)
-    * Exercise - Retrieve US Census language stats though APIs [(code)](05_api_census.py)
+    * Exercise - Retrieve US Census language stats though APIs [(code)](code/05_api_census.py)
      * [Census.gov language statistics page with API description](http://www.census.gov/data/developers/data-sets/language-stats.html)
 * Grabbing data using Web scraping ([code](code/05_web_scraping.py))
     * [APIs - key concepts (slides)](slides/05_APIs_and_web_scraping.pdf)
@@ -286,10 +286,10 @@ Name | Description
 <a name="class-1"></a>
 ### Class 6: Intro to regression
 * Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
-* Linear regression ([notebook](notebooks/10_linear_regression.ipynb))
+* Linear regression ([notebook](notebooks/06_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
     * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
-* Why we should examine data well before building a model: Anscombes_Quartet [(notebook)](notebooks/10_Anscombes_Quartet.ipynb)
+* Why we should examine data well before building a model: Anscombes_Quartet [(notebook)](notebooks/06_Anscombes_Quartet.ipynb)
 * Feature engineering example: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
 
 **Homework:**
