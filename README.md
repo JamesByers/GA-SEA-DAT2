@@ -285,7 +285,7 @@ Name | Description
 
 <a name="class-1"></a>
 ### Class 6: Intro to regression
-* Machine learning exercise ([article](http://blog.dominodatalab.com/06-interesting-uses-of-data-science/))
+* Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
 * Linear regression ([notebook](notebooks/06_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
     * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
