@@ -4,7 +4,7 @@
 
 * Create a Markdown file that includes your answers **and** the code you used to arrive at those answers.
 * Add this Markdown file to a GitHub repo that you'll use for all of your coursework.
-* Submit a link to your repo using the homework submission form.
+* Submit a link to your repo using the homework submission form listed just below the course schedule on the class repo on the main README.md page. [(submission form)](https://docs.google.com/forms/d/1vKgdubWdc-AzMTYS6f6uTFwQDop3M9uUNbilcuziTQA/viewform)
 
 #### Command Line Tasks
 
