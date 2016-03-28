@@ -252,7 +252,7 @@ Name | Description
 * Fetching data through APIs
     * [APIs - key concepts (slides)](slides/05_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
     * Code along - Access APIs on omdbapi.com [(code)](code/05_api.py)
-     * Exercise - Retrieve US Census language stats though APIs
+    * Exercise - Retrieve US Census language stats though APIs [(code)](05_api_census.py)
      * [Census.gov language statistics page with API description](http://www.census.gov/data/developers/data-sets/language-stats.html)
 * Grabbing data using Web scraping ([code](code/05_web_scraping.py))
     * [APIs - key concepts (slides)](slides/05_APIs_and_web_scraping.pdf)
