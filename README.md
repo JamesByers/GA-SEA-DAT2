@@ -29,7 +29,7 @@ Tuesday | Thursday
 <!--
 (https://docs.google.com/a/generalassemb.ly/forms/d/10L0tgB2X70bIHAzb1d0_4guWmCEqxavhQAHM1t1I4-Y/viewform)
 -->
-####   Homework and project submissions form (link to be added)
+####   [Homework and project submissions form] (https://docs.google.com/forms/d/1vKgdubWdc-AzMTYS6f6uTFwQDop3M9uUNbilcuziTQA/viewform?usp=send_form)
 <!--
 (https://docs.google.com/forms/d/1S82LIibhiG2olZQb2C7iboqN5rb8wB6mQLFBg992eh4/viewform?usp=send_form)
 -->
@@ -186,6 +186,9 @@ Name | Description
 	* Complete the command line pre-class exercise ([code](code/04_command_line_basics.md)).  You do not need to turn in this homework
 	* Find one link to a resource about statistics that you find especially useful and send it in a slack message to Jim and Kevin.  Note this will not be graded against the [homework evaluation criteria](https://docs.google.com/spreadsheets/d/19XaVllCETEWyROSMHIShVWgUqK-kbZkvSeCzjK7yezI/edit?usp=sharing).  Jim will share these links back out on our repo so all can benefit.
 
+**Statistics Resources:**
+* [Descriptions of Statistics terms in a straight forward way](http://stattrek.com/statistics/dictionary.aspx?definition=Probability_density_function) including density plot
+
 **Pandas Resources:**
 * To learn more Pandas, read this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), or review these two excellent (but extremely long) notebooks on Pandas: [introduction](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb) and [data wrangling](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb).
 * If you want to go really deep into Pandas (and NumPy), read the book [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do), written by the creator of Pandas.
@@ -236,6 +239,7 @@ Name | Description
 
 -----
 
+<a name="fetching-data"></a>
 ### Class 5: Fetching Data
 
 **After this lesson you will be able to:**
@@ -244,23 +248,22 @@ Name | Description
 * Scrape a web page to extract data
 
 **Topics/Highlights:**
-* Pandas homework with the IMDb data due ([code](homework/05_pandas_homework_imbd.py))
-* Optional "human learning" exercise with the iris data due ([code](notebooks/06_human_learning_iris.ipynb))
+* Chipotle command line homework due [(code)](homework/04_command_line_chipotle.md)
 * Fetching data through APIs
-    * [APIs - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
-    * Code along - Access APIs on omdbapi.com [(code)](code/07_api.py)
+    * [APIs - key concepts (slides)](/slides/05_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
+    * Code along - Access APIs on omdbapi.com [(code)](code/05_api.py)
      * Exercise - Retrieve US Census language stats though APIs
      * [Census.gov language statistics page with API description](http://www.census.gov/data/developers/data-sets/language-stats.html)
 * Grabbing data using Web scraping ([code](code/07_web_scraping.py))
-    * [APIs - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf)
+    * [APIs - key concepts (slides)](/slides/05_APIs_and_web_scraping.pdf)
     * [IMDb: robots.txt](http://www.imdb.com/robots.txt)
     * [Example web page](data/example.html)
     * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
 
 
 **Homework:**
-* **Optional:** Complete the homework exercise listed in the [web scraping code](code/07_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Monday (11/23).
-* **Optional:** If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.)
+* **Optional:** Complete the homework exercise listed in the [web scraping code](code/07_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Tuesday (April 5th).
+* **Optional:** If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.) If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. 
 
 **API Resources:**
 * This Python script to [query the U.S. Census API](https://github.com/laurakurup/census-api) was created by a former DAT student. It's a bit more complicated than the example we used in class, it's very well commented, and it may provide a useful framework for writing your own code to query APIs.

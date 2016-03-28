@@ -67,10 +67,13 @@ calc(5, 3)
 # EXERCISE: Write a function that takes two parameters (hours and rate), and
 # returns the total pay.
 
-#[your code here]
+def pay(hours, rate):
+    money = hours*rate
+    return money
 
 
 # Use a FOR LOOP to print each list element of this list in uppercase
 fruits = ['apple', 'banana', 'cherry']
 
-#[your code here]
+for fruit in fruits:
+    print fruit.upper()
