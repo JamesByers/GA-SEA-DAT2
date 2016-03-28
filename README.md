@@ -247,7 +247,7 @@ Name | Description
 * Scrape a web page to extract data
 
 **Topics/Highlights:**
-* Pandas homework with the IMDb data due ([code](homework/05_pandas_homework_imbd.py))
+* Chipoltle command line homework due [(code)](homework/04_command_line_chipotle.md)
 * Optional "human learning" exercise with the iris data due ([code](notebooks/06_human_learning_iris.ipynb))
 * Fetching data through APIs
     * [APIs - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
