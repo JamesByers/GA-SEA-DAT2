@@ -250,19 +250,19 @@ Name | Description
 **Topics/Highlights:**
 * Chipotle command line homework due [(code)](homework/04_command_line_chipotle.md)
 * Fetching data through APIs
-    * [APIs - key concepts (slides)](/slides/05_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
+    * [APIs - key concepts (slides)](slides/05_APIs_and_web_scraping.pdf) and [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
     * Code along - Access APIs on omdbapi.com [(code)](code/05_api.py)
      * Exercise - Retrieve US Census language stats though APIs
      * [Census.gov language statistics page with API description](http://www.census.gov/data/developers/data-sets/language-stats.html)
-* Grabbing data using Web scraping ([code](code/07_web_scraping.py))
-    * [APIs - key concepts (slides)](/slides/05_APIs_and_web_scraping.pdf)
+* Grabbing data using Web scraping ([code](code/05_web_scraping.py))
+    * [APIs - key concepts (slides)](slides/05_APIs_and_web_scraping.pdf)
     * [IMDb: robots.txt](http://www.imdb.com/robots.txt)
     * [Example web page](data/example.html)
     * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
 
 
 **Homework:**
-* **Optional:** Complete the homework exercise listed in the [web scraping code](code/07_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Tuesday (April 5th).
+* **Optional:** Complete the homework exercise listed in the [web scraping code](code/05_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Tuesday (April 5th).
 * **Optional:** If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.) If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. 
 
 **API Resources:**
