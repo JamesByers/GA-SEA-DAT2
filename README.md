@@ -293,8 +293,7 @@ Name | Description
 * An additional feature engineering example: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
 
 **Homework:**
-* Your first project presentation is on Thursday (12/3)! Please submit a link to your project repository (with slides, code, data, and visualizations) by 6pm on Tuesday.
-* Complete the [homework assignment](homework/10_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv). This is due on Tuesday (12/8).
+* Complete the [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv). This is due on Thursday (4/7).
 
 **Linear Regression Resources:**
 * To go much more in-depth on linear regression, read Chapter 3 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) or read Kevin Markhams [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) to the key points in that chapter.
