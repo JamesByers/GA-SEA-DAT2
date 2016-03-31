@@ -14,7 +14,7 @@ Tuesday | Thursday
 3/29: [L05 Fetching Data](#fetching-data), **Project Discussion Deadline** |
 **Foundations of data modeling**|
  | 3/31: [L06 Intro to Regression](#intro-to-regression), **Project Question and Dataset Due**
-4/5: L07 Evaluating Model Fit | 4/7: [L08 Intro to Classification - K nearest neighbor](#knn)
+4/5: [L07 Intro to Classification - K nearest neighbor](#knn) | 4/7: [L08 Evaluating Model Fit](#evaluating-fit)
 4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
 4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
 **Data science in the real world**|
@@ -305,7 +305,7 @@ Name | Description
 
 -----
 <a name="knn"></a>
-### Class 8: K-Nearest Neighbors
+### Class 7: K-Nearest Neighbors
 * Part 2 - Grabbing more data using Web scraping ([code](code/07_web_scraping.py))
     * [Web sraping - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf)
     * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
@@ -330,6 +330,32 @@ Name | Description
 * To get started with Seaborn for visualization, the official website has a series of [detailed tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
 * [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) is a quick tour of some of the popular types of Seaborn plots.
 * [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) and [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) are both good examples of Seaborn usage on real-world data.
+
+-----
+
+### Class 8: Basic Model Evaluation
+* Reproducibility
+    * Discuss assigned readings: [introduction](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error), [cabs article](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2), [Tweet](https://twitter.com/jakevdp/status/519563939177197571), [creating a reproducible analysis](https://github.com/jtleek/datasharing)
+    * Examples: [Classic rock](https://github.com/fivethirtyeight/data/tree/master/classic-rock), [student project 1](https://github.com/jwknobloch/DAT4_final_project), [student project 2](https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files)
+* Discuss the reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
+* * Exploring the bias-variance tradeoff ([notebook](notebooks/08_bias_variance.ipynb)) 
+* Model evaluation using train/test split ([notebook](notebooks/09_model_evaluation.ipynb))
+* Exploring the scikit-learn documentation: [module reference](http://scikit-learn.org/stable/modules/classes.html), [user guide](http://scikit-learn.org/stable/user_guide.html), class and function documentation
+
+**Homework:**
+* Watch [Data science in Python](https://www.youtube.com/watch?v=3ZWuPVWq7p4) (35 minutes) for an introduction to linear regression (and a review of other course content), or at the very least, read through the [associated notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/06_linear_regression.ipynb).
+* **Optional:** For another introduction to linear regression, watch [The Easiest Introduction to Regression Analysis](https://www.youtube.com/watch?v=k_OB1tWX9PM) (14 minutes).
+
+**Model Evaluation Resources:**
+* For a recap of some of the key points from today's lesson, watch [Comparing machine learning models in scikit-learn](https://www.youtube.com/watch?v=0pP4EwWJgIU) (27 minutes).
+* For another explanation of training error versus testing error, the bias-variance tradeoff, and train/test split (also known as the "validation set approach"), watch Hastie and Tibshirani's video on [estimating prediction error](https://www.youtube.com/watch?v=_2ij6eaaSl0&t=2m34s) (12 minutes, starting at 2:34).
+* Caltech's Learning From Data course includes a fantastic video on [visualizing bias and variance](http://work.caltech.edu/library/081.html) (15 minutes).
+* [Random Test/Train Split is Not Always Enough](http://www.win-vector.com/blog/2015/01/random-testtrain-split-is-not-always-enough/) explains why random train/test split may not be a suitable model evaluation procedure if your data has a significant time element.
+
+**Reproducibility Resources:**
+* [What We've Learned About Sharing Our Data Analysis](https://source.opennews.org/en-US/articles/what-weve-learned-about-sharing-our-data-analysis/) includes tips from BuzzFeed News about how to publish a reproducible analysis.
+* [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) discusses the importance of writing functions and proper code comments (among other skills), which are highly useful for creating a reproducible analysis.
+* [Data science done well looks easy - and that is a big problem for data scientists](http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/) explains how a reproducible analysis demonstrates all of the work that goes into proper data science.
 
 -----
 
