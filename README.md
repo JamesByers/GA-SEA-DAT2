@@ -297,7 +297,8 @@ Name | Description
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
     * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
 * Why we should examine data well before building a model: Anscombes_Quartet [(notebook)](notebooks/06_Anscombes_Quartet.ipynb)
-* An additional feature engineering example is available here: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
+
+<!--* An additional feature engineering example is available here: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb) -->
 
 **Homework:**
 * Complete the [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv). This is due on Thursday (4/7).
