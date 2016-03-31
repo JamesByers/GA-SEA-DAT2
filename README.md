@@ -284,7 +284,7 @@ Name | Description
 
 -----
 
-<a name="class-1"></a>
+<a name="intro-to-regression"></a>
 ### Class 6: Intro to regression
 * Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
 * Linear regression ([notebook](notebooks/06_linear_regression.ipynb))
