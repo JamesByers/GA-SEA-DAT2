@@ -286,6 +286,13 @@ Name | Description
 
 <a name="intro-to-regression"></a>
 ### Class 6: Intro to regression
+
+**After this lesson you will be able to:**
+* Indentify the kinds of problems that Linear Regression can solve
+* Create a linear regression predictive model
+* Evaluate the error of the model's fit to the training data
+
+**Topics/Highlights:**
 * Linear regression ([notebook](notebooks/06_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
     * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
@@ -300,18 +307,15 @@ Name | Description
 * This [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is more detailed and mathematically thorough, and includes lots of good advice.
 * This is a relatively quick post on the [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
 * Setosa has an [interactive visualization](http://setosa.io/ev/ordinary-least-squares-regression/) of linear regression.
+
 <!--* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md) -->
 
 -----
 <a name="knn"></a>
 ### Class 7: K-Nearest Neighbors
-* Part 2 - Grabbing more data using Web scraping ([code](code/07_web_scraping.py))
-    * [Web sraping - key concepts (slides)](/slides/07_APIs_and_web_scraping.pdf)
-    * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
 * K-nearest neighbors (KNN) and scikit-learn ([notebook](notebooks/08_knn_sklearn.ipynb))
 * Exercise with NBA player data ([notebook](notebooks/08_nba_knn.ipynb), [data](/data/NBA_players_2015.csv), [data dictionary](/slides/07_nba_paper.pdf))
-
 
 **Homework:**
 * Quick Pandas exercise ([notebook](notebooks/08_pandas_review.ipynb)).  Complete this exercise to sharpen your understanding of dataframes.
