@@ -321,7 +321,7 @@ Name | Description
 **Homework:**
 * The [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Thursday (4/7).
 * Reading assignment on the [bias-variance tradeoff](homework/08_bias_variance.md)
-* Read Kevin's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
+* Read Kevin Markhams's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
 * Optional: Quick Pandas exercise ([notebook](notebooks/08_pandas_review.ipynb)).  Complete this exercise to sharpen your understanding of dataframes.
 * Work on your project... your first project presentation is in less than three weeks!
 
