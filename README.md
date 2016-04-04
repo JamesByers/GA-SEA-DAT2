@@ -313,6 +313,7 @@ Name | Description
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md) -->
 
 -----
+
 <a name="knn"></a>
 ### Class 7: K-Nearest Neighbors
 * K-nearest neighbors (KNN) and scikit-learn ([notebook](notebooks/07_knn_sklearn.ipynb))
@@ -339,6 +340,7 @@ Name | Description
 
 -----
 
+<a name="evaluating-fit"></a>
 ### Class 8: Basic Model Evaluation
 * Reproducibility
     * Discuss assigned readings: [introduction](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error), [cabs article](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2), [Tweet](https://twitter.com/jakevdp/status/519563939177197571), [creating a reproducible analysis](https://github.com/jtleek/datasharing)
