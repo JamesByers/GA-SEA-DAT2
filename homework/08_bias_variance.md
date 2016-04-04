@@ -1,6 +1,6 @@
 ## Class 9 Pre-work: Bias-Variance Tradeoff
 
-Read this excellent article, [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html), and be prepared to **discuss it in class** on Monday.
+Read this excellent article, [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html), and be prepared to **discuss it in class** on Thursday.
 
 **Note:** You can ignore sections 4.2 and 4.3.
 
