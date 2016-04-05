@@ -318,6 +318,7 @@ Name | Description
 ### Class 7: K-Nearest Neighbors
 * K-nearest neighbors (KNN) and scikit-learn ([notebook](notebooks/07_knn_sklearn.ipynb))
 * Exercise with NBA player data ([notebook](notebooks/07_nba_knn.ipynb), [data](/data/NBA_players_2015.csv), [data dictionary](/slides/07_nba_paper.pdf))
+* Machine learning types and terms [(slides)](slides/07_machine_learning.pdf)
 
 **Homework:**
 * The [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Thursday (4/7).
