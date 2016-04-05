@@ -316,6 +316,13 @@ Name | Description
 
 <a name="knn"></a>
 ### Class 7: K-Nearest Neighbors
+
+**After this lesson you will be able to:**
+* Indentify the steps to build a predictive model in scikit-learn
+* Create a k nearest neighbors (knn) predictive model
+* Describe the difference between a supervised and unsupervised model
+
+**Topics/Highlights:**
 * K-nearest neighbors (KNN) and scikit-learn ([notebook](notebooks/07_knn_sklearn.ipynb))
 * Exercise with NBA player data ([notebook](notebooks/07_nba_knn.ipynb), [data](/data/NBA_players_2015.csv), [data dictionary](/slides/07_nba_paper.pdf))
 * Machine learning types and terms [(slides)](slides/07_machine_learning.pdf) 
