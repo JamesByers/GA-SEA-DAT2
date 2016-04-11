@@ -380,11 +380,10 @@ Name | Description
 
 <a name="logistic-regression"></a>
 ### Class 9: Logistic Regression
-* Yelp votes homework due ([notebook](homework/10_yelp_votes_homework.ipynb))
-* Logistic regression ([notebook](notebooks/12_logistic_regression.ipynb))
+* Logistic regression ([notebook](notebooks/09_logistic_regression.ipynb))
     * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
-* Exercise with Titanic data ([notebook](notebooks/12_titanic_confusion.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
-* Confusion matrix ([slides](slides/12_confusion_matrix.pdf), [notebook](notebooks/12_titanic_confusion.ipynb))
+* Exercise with Titanic data ([notebook](notebooks/09_titanic_confusion.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
+* Confusion matrix ([slides](slides/12_confusion_matrix.pdf), [notebook](notebooks/09_titanic_confusion.ipynb))
 
 **Homework:**
 * If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
