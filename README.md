@@ -383,7 +383,7 @@ Name | Description
 * Logistic regression ([notebook](notebooks/09_logistic_regression.ipynb))
     * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
 * Exercise with Titanic data ([notebook](notebooks/09_titanic_confusion.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
-* Confusion matrix ([slides](slides/12_confusion_matrix.pdf), [notebook](notebooks/09_titanic_confusion.ipynb))
+* Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_titanic_confusion.ipynb))
 
 **Homework:**
 * If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
@@ -406,17 +406,17 @@ Name | Description
 
 <a name="advanced-model></a>
 ### Class 10: Advanced Model Evaluation
-* Data preparation ([notebook](notebooks/13_advanced_model_evaluation.ipynb))
+* Data preparation ([notebook](notebooks/10_advanced_model_evaluation.ipynb))
     * Handling missing values
     * Handling categorical features (review)
 * ROC curves and AUC
-    * Discuss the [video/reading assignment](homework/13_roc_auc.md)
-    * Exercise: drawing an ROC curve ([slides](slides/13_drawing_roc.pdf))
+    * Discuss the [video/reading assignment](homework/10_roc_auc.md)
+    * Exercise: drawing an ROC curve ([slides](slides/10_drawing_roc.pdf))
     * Return to the main notebook
 * Cross-validation
-    * Discuss the [video/reading assignment](homework/13_cross_validation.md) and associated [notebook](notebooks/13_cross_validation.ipynb)
+    * Discuss the [video/reading assignment](homework/10_cross_validation.md) and associated [notebook](notebooks/13_cross_validation.ipynb)
     * Return to the main notebook
-* Exercise with bank marketing data ([notebook](notebooks/13_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
+* Exercise with bank marketing data ([notebook](notebooks/10_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
 
 **Homework:**
 * Reading assignment on [spam filtering](homework/14_spam_filtering.md)
