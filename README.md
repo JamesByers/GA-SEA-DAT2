@@ -382,6 +382,7 @@ Name | Description
 ### Class 9: Logistic Regression
 * Logistic regression ([notebook](notebooks/09_logistic_regression.ipynb))
     * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
+    * [e and natural log - what are they?](http://localhost:8888/notebooks/Documents/GA/GA_Data_Science_course/SEA-DAT2/notebooks/09_e_log_examples.ipynb)
 * Exercise with Titanic data ([notebook](notebooks/09_titanic_logistic_regression_exercise.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
 * Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_confusion_matrix.ipynb))
 
