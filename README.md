@@ -382,7 +382,7 @@ Name | Description
 ### Class 9: Logistic Regression
 * Logistic regression ([notebook](notebooks/09_logistic_regression.ipynb))
     * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
-* Exercise with Titanic data ([notebook](notebooks/09_logistic_regression_exercise.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
+* Exercise with Titanic data ([notebook](notebooks/09_titanic_logistic_regression_exercise.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
 * Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_titanic_confusion.ipynb))
 
 **Homework:**
