@@ -383,7 +383,7 @@ Name | Description
 * Logistic regression ([notebook](notebooks/09_logistic_regression.ipynb))
     * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
 * Exercise with Titanic data ([notebook](notebooks/09_titanic_logistic_regression_exercise.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
-* Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_titanic_confusion.ipynb))
+* Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_confusion_matrix.ipynb))
 
 **Homework:**
 * If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
