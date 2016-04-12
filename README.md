@@ -406,7 +406,7 @@ Name | Description
 
 <a name="advanced-model></a>
 ### Class 10: Advanced Model Evaluation
-* Data preparation ([notebook](notebooks/10_advanced_model_evaluation.ipynb))
+* Data preparation [(notebook)](notebooks/10_advanced_model_evaluation.ipynb)
     * Handling missing values
     * Handling categorical features (review)
 * ROC curves and AUC
