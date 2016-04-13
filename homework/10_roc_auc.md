@@ -1,4 +1,4 @@
-## Class 13 Pre-work: ROC Curves and AUC
+## Class 10 Pre-work: ROC Curves and AUC
 
 First, read these [lesson notes](http://ebp.uga.edu/courses/Chapter%204%20-%20Diagnosis%20I/8%20-%20ROC%20curves.html) from a university course for an excellent overview of ROC curves.
 
