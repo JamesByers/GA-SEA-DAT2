@@ -423,15 +423,14 @@ Name | Description
     * Exercise: drawing an ROC curve ([slides](slides/10_drawing_roc.pdf))
     * Return to the main notebook
 * Cross-validation
-    * Discuss the [video/reading assignment](homework/10_cross_validation.md) and associated [notebook](notebooks/13_cross_validation.ipynb)
+    * Discuss the [video/reading assignment](homework/10_cross_validation.md)
+    * Hands on with cross validation [notebook](notebooks/10_cross_validation.ipynb)
     * Return to the main notebook
 * Exercise with bank marketing data ([notebook](notebooks/10_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
 
 **Homework:**
-* Reading assignment on [spam filtering](homework/14_spam_filtering.md)
-* Read these [Introduction to Probability](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) slides, or skim section 2.1 of the [OpenIntro Statistics textbook](https://www.openintro.org/stat/textbook.php?stat_book=os) (12 pages). Pay specific attention to the following terms: probability, mutually exclusive, sample space, independent.
-* **Optional:** Try to gain an understanding of conditional probability from this [visualization](http://setosa.io/conditional/).
-* **Optional:** For an intuitive introduction to Bayes' theorem, read these posts on [wealth and happiness](http://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule/answer/Michael-Hochster), [ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), or [legos](http://www.countbayesie.com/blog/2015/2/18/bayes-theorem-with-lego).
+* Finalize your First Project Presentations!  Presentations are next Thursday April 21st.
+	* [Requirements for the presentations](/project/README.md
 
 **ROC Resources:**
 * Rahul Patwari has a great video on [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutes).
