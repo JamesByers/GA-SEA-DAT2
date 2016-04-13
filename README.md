@@ -380,6 +380,13 @@ Name | Description
 
 <a name="logistic-regression"></a>
 ### Class 9: Logistic Regression
+
+**After this lesson you will be able to:**
+* Describe the kind of problem Logistic regression can solve
+* Create a logistic regression model
+* Describe the elements of a Confusion Matrix
+
+**Topics/Highlights:**
 * Logistic regression ([notebook](notebooks/09_logistic_regression.ipynb))
     * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
     * [e and natural log - what are they?](http://localhost:8888/notebooks/Documents/GA/GA_Data_Science_course/SEA-DAT2/notebooks/09_e_log_examples.ipynb)
