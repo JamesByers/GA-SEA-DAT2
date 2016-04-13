@@ -1,4 +1,4 @@
-## Class 13 Pre-work: Cross-validation
+## Class 10 Pre-work: Cross-validation
 
 Watch Kevin Markham's video on [cross-validation](https://www.youtube.com/watch?v=6dbrR-WymjI) (36 minutes), and be prepared to **discuss it in class** on Tuesday. The [notebook](../notebooks/13_cross_validation.ipynb) shown in the video is also in this repository.
 
