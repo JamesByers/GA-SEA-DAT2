@@ -394,10 +394,10 @@ Name | Description
 * Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_confusion_matrix.ipynb))
 
 **Homework:**
-* work through the code samples in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](noteboooks/09_confusion_matrix.ipynb) to see an enample of turning a multi value feature into a 
+* work through the code samples in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](notebooks/09_confusion_matrix.ipynb) to see an enample of turning a multi value feature into a 
 * If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
-* Video/reading assignment on [ROC curves and AUC](homework/13_roc_auc.md)
-* Video/reading assignment on [cross-validation](homework/13_cross_validation.md)
+* Video/reading assignment on [ROC curves and AUC](homework/10_roc_auc.md)
+* Video/reading assignment on [cross-validation](homework/10_cross_validation.md)
 
 **Logistic Regression Resources:**
 * To go deeper into logistic regression, read the first three sections of Chapter 4 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), or watch the [first three videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) (30 minutes) from that chapter.
