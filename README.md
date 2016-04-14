@@ -431,8 +431,7 @@ Name | Description
 	    * Exercise: drawing an ROC curve ([slides](slides/10_drawing_roc.pdf))
 	    * Return to the main notebook
 	* Cross-validation
-	    * Discuss the [video/reading assignment](homework/10_cross_validation.md)
-	    * Hands on with cross validation [notebook](notebooks/10_cross_validation.ipynb)
+	    * Discuss the [video/reading assignment](homework/10_cross_validation.md) and related [notebook](notebooks/10_cross_validation.ipynb)
 	    * Return to the main notebook
 * Exercise with bank marketing data ([notebook](notebooks/10_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
 
