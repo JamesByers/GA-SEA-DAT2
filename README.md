@@ -394,7 +394,7 @@ Name | Description
 * Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_confusion_matrix.ipynb))
 
 **Homework:**
-* work through the code samples in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](notebooks/09_confusion_matrix.ipynb) to see an enample of turning a multi value feature into a 
+* Work through the code samples in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](notebooks/09_confusion_matrix.ipynb) to see an enample of turning a multi value feature into a 
 * If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
 * Video/reading assignment on [ROC curves and AUC](homework/10_roc_auc.md)
 * Video/reading assignment on [cross-validation](homework/10_cross_validation.md)
@@ -415,6 +415,13 @@ Name | Description
 
 <a name="advanced-model"></a>
 ### Class 10: Advanced Model Evaluation
+
+**After this lesson you will be able to:**
+* Prepare your data by overcoming issues such as null values
+* Be able to measure accuracy of Logistic Regression with ROC curves and AUC
+* Be able to use cross validation to measure model accuracy more effectively than with test/train split
+
+**Topics/Highlights:**
 * Data preparation [(notebook)](notebooks/10_advanced_model_evaluation.ipynb)
     * Handling missing values
     * Handling categorical features (review)
@@ -429,8 +436,8 @@ Name | Description
 * Exercise with bank marketing data ([notebook](notebooks/10_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
 
 **Homework:**
-* Finalize your First Project Presentations!  Presentations are next Thursday April 21st.
-	* [Requirements for the presentations](/project/README.md
+* **Finalize your First Project Presentations!**  Your first project presentation is next Thursday April 21st.
+	* [Requirements for the presentations](/project/README.md)
 
 **ROC Resources:**
 * Rahul Patwari has a great video on [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutes).
@@ -449,7 +456,7 @@ Name | Description
 
 -----
 
-### Class 11: Regularization and Clustering
+### Class 11: Standardization and Clustering
 **By the end of this lesson you will be able to:**
 
 * Standardize features
@@ -520,7 +527,7 @@ Name | Description
 
 -----
 
-<a name="decision></a>
+<a name="decision"></a>
 ### Class 15: Decision Trees
 **By the end of this lesson you will be able to:**
 
@@ -546,7 +553,7 @@ Name | Description
 
 -----
 
-<a name="ensemble></a>
+<a name="ensemble"></a>
 ### Class 16: Ensembling, Bagging and Random Forests
 
 * Finish decision trees lesson ([notebook](notebooks/15_decision_trees.ipynb))
