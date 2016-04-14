@@ -16,7 +16,7 @@ Tuesday | Thursday
  | 3/31: [L06 Intro to Regression](#intro-to-regression), **Project Question and Dataset Due**
 4/5: [L07 Intro to Classification - K nearest neighbor](#knn) | 4/7: [L08 Evaluating Model Fit](#evaluating-fit)
 4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced-model)
-4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
+4/19: [L11 Standardization and Clustering](#class-11-standardization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
 **Data science in the real world**|
 4/26: [L13 Natural Language Processing](#nlp) | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
 5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
