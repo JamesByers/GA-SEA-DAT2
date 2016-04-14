@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Apr  9 13:01:08 2016
-
-@author: jim_byers
-"""
+#
+# This prints a value from stocks before and after changing it to a float.
+#
+# %pylab inline
 from yahoo_finance import Share
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-# %pylab inline
 security = Share('IBM')
 df = security.get_historical('2016-03-27', '2016-04-07')
 table1 = pd.DataFrame(df)
 stock = table1[['Low']]
-​
+
+print "Before changing type to float: ",stock.loc[0]
+stock = stock.astype(float)
+print "After changing type to float: ",stock.loc[0]
 stock.plot()
