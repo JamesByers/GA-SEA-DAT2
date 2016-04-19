@@ -457,7 +457,7 @@ Name | Description
 -----
 
 <a name="clustering"></a>
-### Class 11: Standardization and Clustering
+### Class 11: Standardization (z-value scaling) and Clustering
 **By the end of this lesson you will be able to:**
 
 * Standardize features
@@ -466,6 +466,7 @@ Name | Description
 
 **Topics/Highlights**
 
+* Review solutions to exercise with bank marketing data ([notebook](notebooks/solutions/10_bank_exercise_solutions.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
 * Advanced scikit-learn ([notebook](notebooks/11_advanced_sklearn.ipynb),[dataset description](http://archive.ics.uci.edu/ml/datasets/Wine))
     * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardizing features
     * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
