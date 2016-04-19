@@ -466,7 +466,7 @@ Name | Description
 
 **Topics/Highlights**
 
-* Advanced scikit-learn ([notebook](notebooks/11_advanced_sklearn.ipynb))
+* Advanced scikit-learn ([notebook](notebooks/11_advanced_sklearn.ipynb),[dataset description](http://archive.ics.uci.edu/ml/datasets/Wine))
     * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardizing features
     * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
 * Clustering ([slides](slides/11_clustering.pdf), [notebook](notebooks/11_clustering.ipynb))
