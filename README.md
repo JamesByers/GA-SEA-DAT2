@@ -469,7 +469,7 @@ Name | Description
 * Advanced scikit-learn ([notebook](notebooks/11_advanced_sklearn.ipynb),[dataset description](http://archive.ics.uci.edu/ml/datasets/Wine))
     * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardizing features
     * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
-* Clustering ([slides](slides/11_clustering.pdf), [notebook](notebooks/11_clustering.ipynb))
+* Clustering ([slides](slides/11_clustering.pdf), [(notebook](notebooks/11_clustering.ipynb),[data)](https://raw.githubusercontent.com/JamesByers/GA-SEA-DAT2/master/data/beer.txt)
     * K-means: [documentation](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html), [visualization 1](http://tech.nitoyon.com/en/blog/2013/11/07/k-means/), [visualization 2](http://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
     	* My clustering of colors in an image to posterize.  Used a loop to generate clusters of 1 to 256 clusters. Made an animated gif out of them.  Fun! [(repository](https://github.com/JamesByers/Cluster-analysis-of-image-RGB-colors),[gif)](https://github.com/JamesByers/Cluster-analysis-of-image-RGB-colors/blob/master/image_output_files/Newport_seafood_k_means%2B%2B_cluster_animated.gif)
     * DBSCAN: [documentation](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), [visualization](http://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
