@@ -460,7 +460,7 @@ Name | Description
 ### Class 11: Standardization (z-value scaling) and Clustering
 **By the end of this lesson you will be able to:**
 
-* Standardize features
+* Standardize feature values
 * Cluster using K-means and DBSCAN
 * Compare "how good" the clustering models are
 
