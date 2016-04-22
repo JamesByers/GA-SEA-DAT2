@@ -627,6 +627,15 @@ Name | Description
  * [slides](slides/bonus_nn_svm.pdf)
  * [notebook](notebooks/bonus_nn_svc.ipynb)
 
+**Neural Network resources**
+* For a more background of on Artificial Neural Networks view this series.  It describes the logic behind ANN from a low level logic step by step point of view: 
+ * Part 1 https://www.youtube.com/watch?v=bxe2T-V8XRs
+ * Part 2 https://www.youtube.com/watch?v=UJwK6jAStmg
+ * Part 3 https://www.youtube.com/watch?v=5u0jaA3qAGk
+ * Part 4 https://www.youtube.com/watch?v=GlcnxUlrtek
+ * Part 5 https://www.youtube.com/watch?v=pHMzNW8Agq4
+ * Part 6 https://www.youtube.com/watch?v=9KM9Td6RVgQ
+ * Part 7 https://www.youtube.com/watch?v=S4ZUwgesjS8
 
 
 
