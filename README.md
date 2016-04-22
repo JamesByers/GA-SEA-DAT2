@@ -580,7 +580,7 @@ Name | Description
 
 -----
 
-<a name="<a name="svc"></a>"></a>
+<a name="svc"></a>
 ### Bonus Content: Support Vector Classifier - SVC
 * SVC (Support Vector Classifier)
  * [slides](slides/bonus_nn_svm.pdf)
@@ -592,6 +592,7 @@ Name | Description
 
 -----
 
+<a name="bayes"></a>
 ### Bonus content: Naive Bayes and Text Data
 * Conditional probability and Bayes' theorem
     * [Slides](slides/bonus_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
@@ -616,7 +617,7 @@ Name | Description
 
 -----
 
-<a name="<a name="nn"></a>">
+<a name="nn"></a>
 ### Bonus Content: Intro to Neural Networks
 * Artificial Neural Networks (ANN)
  * [slides](slides/bonus_nn_svm.pdf)
