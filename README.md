@@ -616,7 +616,7 @@ Name | Description
 
 -----
 
-<a name="<a name="nn"></a>"></a>
+<a name="<a name="nn"></a>">
 ### Bonus Content: Intro to Neural Networks
 * Artificial Neural Networks (ANN)
  * [slides](slides/bonus_nn_svm.pdf)
