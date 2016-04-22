@@ -584,7 +584,7 @@ Name | Description
 ### Bonus Content: Support Vector Classifier - SVC
 * SVC (Support Vector Classifier)
  * [slides](slides/bonus_nn_svm.pdf)
- * [notebook](notebook/bonus_nn_svc.ipynb)
+ * [notebook](notebooks/bonus_nn_svc.ipynb)
 
 **SVC resources**
 * For a more in-depth inderstanding of Support Vector Machines and SVC, read Chapter 9 of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
@@ -620,7 +620,7 @@ Name | Description
 ### Bonus Content: Intro to Neural Networks
 * Artificial Neural Networks (ANN)
  * [slides](slides/bonus_nn_svm.pdf)
- * [notebook](notebook/bonus_nn_svc.ipynb)
+ * [notebook](notebooks/bonus_nn_svc.ipynb)
 
 
 
