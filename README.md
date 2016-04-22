@@ -22,6 +22,7 @@ Tuesday | Thursday
 5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
 5/10: L17 Modeling with Time Series Data I, **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
 5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
+Bonus content: [SVC - Support Vector Classifier](#svc) |
 
 ## Submission Forms
 
@@ -576,9 +577,23 @@ Name | Description
 
 -----
 
+<a name="<a name="svc"></a>"></a>
+### Bonus Content: Support Vector Classifier - SVC
+* SVC (Support Vector Classifier)
+ * [slides](slides/bonus_nn_svm.pdf)
+ * [notebook](notebook/bonus_nn_svc.ipynb)
 
+**SVC resources**
+* For a more in-depth inderstanding of Support Vector Machines and SVC, read Chapter 9 of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
+* SVC videos by the authors of An Introduction to Statistical Learning can be found [here](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/).
 
+-----
 
+<a name="<a name="svc"></a>"></a>
+### Bonus Content: Intro to Neural Networks
+* Artificial Neural Networks (ANN)
+ * [slides](slides/bonus_nn_svm.pdf)
+ * [notebook](notebook/bonus_nn_svc.ipynb)
 
 
 
