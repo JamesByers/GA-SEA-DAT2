@@ -22,6 +22,7 @@ Tuesday | Thursday
 5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
 5/10: L17 Modeling with Time Series Data I, **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
 5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
+ _ 
 **Bonus Content** | 
 Bonus content: [SVC - Support Vector Classifier](#svc) | 
 Bonus content: [Naive Bayes Classifier](#bayes)| 
