@@ -546,7 +546,7 @@ Name | Description
   	*  Using TF-IDF to Summarize a Yelp Review
   	*  Sentiment Analysis
 * Dimensionality reduction
-	* [(slides)](/Users/jim_byers/Documents/GA/GA_Data_Science_course/SEA-DAT2/slides/14_dimensionality_reduction.pdf)
+	* [(slides)](../slides/14_dimensionality_reduction.pdf)
 	* [notebook - iris](notebooks/14_PCA_iris.ipynb)
 	* [notebook and exercise](14_PCA_images.ipynb)
 
