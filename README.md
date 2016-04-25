@@ -519,7 +519,6 @@ Name | Description
 
 **Homework:**
 * **Your draft paper is due on Thursday (12/22)!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
-* The [homework assignment](homework/14_yelp_review_text_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Tuesday (12/22)
 
 **NLP Resources:**
 * If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
@@ -542,12 +541,12 @@ Name | Description
 
 **Topics/Highlights**
 
-* Natural Language Processing continued
+* Natural Language Processing continued ([notebook](notebooks/13_natural_language_processing.ipynb))
 	* Term Frequency-Inverse Document Frequency (TF-IDF)
   	*  Using TF-IDF to Summarize a Yelp Review
   	*  Sentiment Analysis
 * Dimensionality reduction
-	* ([(slides)](/Users/jim_byers/Documents/GA/GA_Data_Science_course/SEA-DAT2/slides/14_dimensionality_reduction.pdf)
+	* [(slides)](/Users/jim_byers/Documents/GA/GA_Data_Science_course/SEA-DAT2/slides/14_dimensionality_reduction.pdf)
 	* [notebook - iris](notebooks/14_PCA_iris.ipynb)
 	* [notebook and exercise](14_PCA_images.ipynb)
 
