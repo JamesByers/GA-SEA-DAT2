@@ -515,7 +515,7 @@ Name | Description
  * Other CountVectorizer options
  * Intro to [TextBlob](https://textblob.readthedocs.org/en/dev/)
  * Stemming and Lemmatization
-* NLP Excercise [(notebook)]
+* NLP Exercise [(notebook)](notebooks/13_NLP_rotten_tomatoes_exercise.ipynb)
 
 **Homework:**
 * **Your draft paper is due on Thursday (12/22)!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
