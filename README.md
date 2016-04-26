@@ -20,7 +20,7 @@ Tuesday | Thursday
 **Data science in the real world**|
 4/26: [L13 Natural Language Processing](#nlp1) | 4/28: [L14 Dimensionality reduction](#reduction), **Draft Paper Due**
 5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
-5/10: L17 Modeling with Time Series Data I, **Peer Review Due** | 5/12 L18 Modeling with Time Series Data II
+5/10: [L17 Modeling with Time Series Data I](#time1), **Peer Review Due** | 5/12 [L18 Modeling with Time Series Data II](#time2)
 5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
  | 
  | 
@@ -509,6 +509,14 @@ Name | Description
 
 <a name="nlp1"></a>
 ### Class 13: Natural Language Processing
+**By the end of this lesson you will be able to:**
+
+* Apply the NLP techniques of Vectorization and Tokenization to text to create features
+* Use stop word removal and other techniques to increase the accuracy of your models using these features
+* Create features using Stemming and Lemmatization
+
+**Topics/Highlights**
+
 * Natural language processing ([notebook](notebooks/13_natural_language_processing.ipynb))
  * Vectorization/Tokenization
  * Stopword Removal
@@ -545,6 +553,7 @@ Name | Description
 	* Term Frequency-Inverse Document Frequency (TF-IDF)
   	*  Using TF-IDF to Summarize a Yelp Review
   	*  Sentiment Analysis
+  	*  NLP Exercise continued with TF-IDF [(notebook)](notebooks/13_NLP_rotten_tomatoes_exercise.ipynb)
 * Dimensionality reduction
 	* [slides](slides/14_dimensionality_reduction.pdf)
 	* [notebook](notebooks/14_PCA_iris.ipynb)
@@ -608,6 +617,22 @@ Name | Description
 * [Large Scale Decision Forests: Lessons Learned](http://blog.siftscience.com/blog/2015/large-scale-decision-forests-lessons-learned) is an excellent post from Sift Science about their custom implementation of Random Forests.
 * [Unboxing the Random Forest Classifier](http://nerds.airbnb.com/unboxing-the-random-forest-classifier/) describes a way to interpret the inner workings of Random Forests beyond just feature importances.
 * [Understanding Random Forests: From Theory to Practice](http://arxiv.org/pdf/1407.7502v3.pdf) is an in-depth academic analysis of Random Forests, including details of its implementation in scikit-learn.
+
+-----
+
+<a name="time1"></a>
+### Class 17: Time Series I
+
+* Time series intro ([slides](https://docs.google.com/presentation/d/1pbAy7Pj-jZGFlcqkuiX8f-y7ozdiotBskkXaD5jiaKc/edit?usp=sharing))
+* Exercises [(notebook)](notebooks/17_TS_starter-code.ipynb)
+
+-----
+
+<a name="time2"></a>
+### Class 17: Time Series I
+
+* Time series intro ([slides](https://docs.google.com/presentation/d/12lBrOxtqhQRJ85PdkTr4qgcFy0DwUGzVy6bvdA5qyOs/edit?usp=sharing))
+* Exercises [(notebook)](notebooks/18_TS_starter-code.ipynb)
 
 -----
 
