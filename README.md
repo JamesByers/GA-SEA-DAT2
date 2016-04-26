@@ -509,6 +509,14 @@ Name | Description
 
 <a name="nlp1"></a>
 ### Class 13: Natural Language Processing
+**By the end of this lesson you will be able to:**
+
+* Apply the NLP techniques of Vectorization and Tokenization to text to create features
+* Use stop word removal and other techniques to increase the accuracy of your models using these features
+* Create features using Stemming and Lemmatization
+
+**Topics/Highlights**
+
 * Natural language processing ([notebook](notebooks/13_natural_language_processing.ipynb))
  * Vectorization/Tokenization
  * Stopword Removal
@@ -545,6 +553,7 @@ Name | Description
 	* Term Frequency-Inverse Document Frequency (TF-IDF)
   	*  Using TF-IDF to Summarize a Yelp Review
   	*  Sentiment Analysis
+  	*  NLP Exercise continued with TF-IDF [(notebook)](notebooks/13_NLP_rotten_tomatoes_exercise.ipynb)
 * Dimensionality reduction
 	* [slides](slides/14_dimensionality_reduction.pdf)
 	* [notebook](notebooks/14_PCA_iris.ipynb)
