@@ -621,7 +621,7 @@ Name | Description
 -----
 
 <a name="time1"></a>
-### Class 17: Time Series I
+### Class 17: Modeling with Time Series Data I
 
 * Time series intro ([slides](https://docs.google.com/presentation/d/1pbAy7Pj-jZGFlcqkuiX8f-y7ozdiotBskkXaD5jiaKc/edit?usp=sharing))
 * Exercises [(notebook)](notebooks/17_TS_starter-code.ipynb)
@@ -629,7 +629,7 @@ Name | Description
 -----
 
 <a name="time2"></a>
-### Class 17: Time Series I
+### Class 17: Modeling with Time Series Data II
 
 * Time series intro ([slides](https://docs.google.com/presentation/d/12lBrOxtqhQRJ85PdkTr4qgcFy0DwUGzVy6bvdA5qyOs/edit?usp=sharing))
 * Exercises [(notebook)](notebooks/18_TS_starter-code.ipynb)
