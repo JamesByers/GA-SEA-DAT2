@@ -556,8 +556,8 @@ Name | Description
   	*  NLP Exercise continued with TF-IDF [(notebook)](notebooks/13_NLP_rotten_tomatoes_exercise.ipynb)
 * Dimensionality reduction
 	* [slides](slides/14_dimensionality_reduction.pdf)
-	* [notebook](notebooks/14_PCA_iris.ipynb)
-	* [notebook (images) and exercise](notebooks/14_PCA_images.ipynb)
+	* [notebook - iris dataset](notebooks/14_PCA_iris.ipynb)
+	* [notebook - images dataset](notebooks/14_PCA_images.ipynb)
 
 **NLP Resources:**
 * If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
