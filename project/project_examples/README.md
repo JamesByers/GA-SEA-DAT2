@@ -11,7 +11,7 @@ This repository is a collection of **example projects** from students in General
     * Other links: [code, data](https://github.com/dokbrown/MetroMetric)
 * [Forecasting the All-NBA Teams](pdf/nba_presentation.pdf)
     * Can we predict the 2015 All-NBA Teams based on player statistics?
-    * Other links: [paper](pdf/nba_paper.pdf), [code, data](https://github.com/justmarkham/DAT4-students/tree/master/kerry/Final)
+    * Other links: [paper](pdf/nba_paper.pdf)
 * [Billboard Top 40 Song Analysis](http://nbviewer.ipython.org/github/lentzma/Billboard_Top_40/blob/master/DAT13FinalLentz.ipynb)
     * Can we predict the popularity, decade, and genre of hit songs from the past 54 years based on song characteristics?
 * [Social media and brand marketing in the hotel industry](pdf/hotel_presentation.pdf)
@@ -31,10 +31,8 @@ This repository is a collection of **example projects** from students in General
     * Other links: [paper, code](https://github.com/justmarkham/kaggle-allstate)
 * [Kaggle Driver Telematics Analysis](pdf/driver_presentation.pdf)
     * Can drivers be identified using their driving characteristics?
-    * Other links: [paper, code](https://github.com/justmarkham/DAT4-students/tree/master/frank/project_final)
 * [Kaggle Seizure Prediction Challenge](pdf/seizure_presentation.pdf)
     * Can impending seizures be predicted using brain activity data?
-    * Other links: [paper, code, data](https://github.com/justmarkham/DAT3-students/tree/master/chad/project)
 * [Predicting Loan Defaults in Peer-to-Peer Lending Markets](pdf/loans_presentation.pdf)
     * Can we predict which Lending Club loans will default based on the loan and borrower characteristics?
     * Other links: [paper](pdf/loans_paper.pdf)
@@ -56,10 +54,9 @@ This repository is a collection of **example projects** from students in General
     * Other links: [paper](pdf/travel_paper.pdf)
 * [Predicting Flight Delays](pdf/flight_presentation.pdf)
     * Can we predict flight delays using environmental factors and flight characteristics?
-    * Other links: [paper](pdf/flight_paper.pdf), [code, data](https://github.com/justmarkham/DAT3-students/tree/master/christine/Final%20Project)
+    * Other links: [paper](pdf/flight_paper.pdf)
 * [Bike Sharing in Mexico City](pdf/bike_presentation.pdf)
     * Can we predict demand for the Mexico City bikesharing system based on weather data and user characteristics?
-    * Other links: [code](https://github.com/justmarkham/gadsdc2/tree/master/final_project/jesus)
 * [Data Athletics](pdf/athletics_presentation.pdf)
     * Can we predict an athlete's future performance based on their race history and training data?
     * Other links: [code, data](https://github.com/cabhishek/datascience)
@@ -68,5 +65,4 @@ This repository is a collection of **example projects** from students in General
 
 ### Other data science student projects (not from General Assembly)
 
-* [Zipfian Academy](http://www.zipfianacademy.com/alumni): Zipfian Academy offers a 12-week immersive data science program. Hover over the student photos to find links to their capstone projects.
 * [Stanford's Machine Learning course](http://cs229.stanford.edu/): Machine learning-focused student projects from Andrew Ng's course. Click on the project links at the very bottom of the page to access hundreds of project papers.
