@@ -583,8 +583,8 @@ Name | Description
 **Topics/Highlights**
 
 * Decision trees ([notebook](notebooks/15_decision_trees.ipynb))
-* 	Part 1: Regression trees
-* Exercise with Capital Bikeshare data ([notebook](notebooks/5_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
+	* Regression trees
+* Exercise with Capital Bikeshare data ([notebook](notebooks/15_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
 
 **Homework:**
 * Read the "Wisdom of the crowds" section from MLWave's post on [Human Ensemble Learning](http://mlwave.com/human-ensemble-learning/).
