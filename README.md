@@ -583,7 +583,7 @@ Name | Description
 **Topics/Highlights**
 
 * Decision trees ([notebook](notebooks/15_decision_trees.ipynb))
-	* Regression trees
+	* Part 1: Regression trees
 * Exercise with Capital Bikeshare data ([notebook](notebooks/15_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
 
 **Homework:**
@@ -602,6 +602,8 @@ Name | Description
 <a name="ensemble"></a>
 ### Class 16: Ensembling, Bagging and Random Forests
 
+* Decision trees ([notebook](notebooks/15_decision_trees.ipynb))
+	* Part 2: Classification trees
 * Ensembling, Bagging and Random Forests ([notebook](notebooks/16_ensembling.ipynb))
     * [Major League Baseball player data](data/hitters.csv) from 1986-87
     * [Data dictionary](https://cran.r-project.org/web/packages/ISLR/ISLR.pdf) (see page 7)
