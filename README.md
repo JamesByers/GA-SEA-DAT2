@@ -630,7 +630,7 @@ Name | Description
 -----
 
 <a name="time2"></a>
-### Class 17: Modeling with Time Series Data II
+### Class 18: Modeling with Time Series Data II
 
 * Time series intro ([slides](https://docs.google.com/presentation/d/12lBrOxtqhQRJ85PdkTr4qgcFy0DwUGzVy6bvdA5qyOs/edit?usp=sharing))
 * Exercises [(notebook)](notebooks/18_TS_starter-code.ipynb)
@@ -690,5 +690,3 @@ Name | Description
  * Part 6 https://www.youtube.com/watch?v=9KM9Td6RVgQ
  * Part 7 https://www.youtube.com/watch?v=S4ZUwgesjS8
 
-# http://3.bp.blogspot.com/-dofu6J0sZ8o/UrctKb69QdI/AAAAAAAADfg/79ewPecn5XU/s1600/scikit-learn-flow-chart.jpg
--->
