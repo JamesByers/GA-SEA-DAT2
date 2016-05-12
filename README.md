@@ -633,7 +633,8 @@ Name | Description
 ### Class 18: Modeling with Time Series Data II
 
 * Time series intro ([slides](https://docs.google.com/presentation/d/12lBrOxtqhQRJ85PdkTr4qgcFy0DwUGzVy6bvdA5qyOs/edit?usp=sharing))
-* Exercises [(notebook)](notebooks/18_TS_starter-code.ipynb)
+* Time series modeling with statsmodels [(notebook)](notebooks/18_timeseries_modeling)
+* Exercise with Wal-mart sales data [(notebook)](notebooks/18_TS_starter-code.ipynb)
 
 -----
 
