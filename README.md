@@ -638,6 +638,64 @@ Name | Description
 
 -----
 
+### Class 21: Bonus Topics
+
+**Topics/Highlights**
+
+* Additional models and variants - Exercise
+* Trends
+	* Data storage, Hadoop and MapReduce
+		* SQL databases
+		* NoSQL vs. SQL databases ([comparison](http://core0.staticworld.net/images/article/2014/10/sql-nosql-b-100527236-large.idge.gif))
+		* Distributed files [(diagram)](https://www.google.com/search?q=hadoop+storage+impala+diagram&source=lnms&tbm=isch)
+	* AWS, Azure and Google,  data and data science engine services
+		* SQL Databases in the cloud
+			* AWS Redshift, Oracle, SQL Server
+			* Azure SQL Server
+			* Google BigQuery
+		* NoSQL Databases
+			* AWS Mongo, DynamoDB
+			* Azure
+		* Data collection for IoT
+		* Data science engines - ex. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+* Exercise - top takeaways and top surprises
+* Where to go from here data scientists!
+	* [Data science skills hierarchy](https://docs.google.com/spreadsheets/d/1RAcC44o3crC2ZeCmtrELibV1VyEB5ecnBHZKXXXZI6M)
+* Next steps in your journey
+	* [Exercise: your objectives and next steps](https://docs.google.com/spreadsheets/d/13z-eUjMtsSyO6B51iVzoEwmfpO-IhymoYDIVvgTious/edit?usp=sharing)
+
+**Additional models and variants (in blue)**
+
+* Classifiers
+	* Naïve Bayes
+	* KNN
+	* SVC
+	* [SDG](http://scikit-learn.org/stable/modules/sgd.html)
+	* Decision Trees
+	* Neural Networks
+	* Ensemble methods [(scikit-learn pqge)](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble)
+		* Bagging
+		* Boosting
+			* [sklearn.ensemble.AdaBoostRegressor](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html)
+			* Beware, even one misclassified label in training data can result in poor prediction
+		* Random Forests
+* Regression
+	* Linear regression
+	* [Ridge regression](http://scikit-learn.org/stable/modules/linear_model.html) 
+	* [Lasso](http://scikit-learn.org/stable/modules/linear_model.html)
+	* Logistic Regression
+	* [Linear regressor with polynomial preprocessing](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
+	* [SVR (choose from several kernels)](http://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
+	* [SDG regression](http://scikit-learn.org/stable/modules/sgd.html)
+	* Ensemble methods
+		* [Random Forest regression](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+* Clustering
+	* K-means
+	* DBSCAN
+	* [Hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/)
+
+-----
+
 <a name="svc"></a>
 ### Bonus Content: Support Vector Classifier - SVC
 * SVC (Support Vector Classifier)
