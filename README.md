@@ -643,7 +643,7 @@ Name | Description
 
 **Topics/Highlights**
 
-* Using a multi-user git repository - Exercise
+* Using a multi-user git repository - [Exercise](https://github.com/kevinmcalear/mergefest)
 * Trends
 	* Data storage, Hadoop and MapReduce
 		* SQL databases
