@@ -643,6 +643,7 @@ Name | Description
 
 **Topics/Highlights**
 
+* Using a multi-user git repository - Exercise
 * Additional models and variants - Exercise
 * Trends
 	* Data storage, Hadoop and MapReduce
