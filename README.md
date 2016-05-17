@@ -666,7 +666,7 @@ Name | Description
 	* [Exercise: your objectives and next steps](https://docs.google.com/spreadsheets/d/13z-eUjMtsSyO6B51iVzoEwmfpO-IhymoYDIVvgTious/edit?usp=sharing)
 
 **Additional models and variants (in blue)**
-
+<!--
 * Classifiers
 	* Naïve Bayes
 	* KNN
@@ -694,6 +694,7 @@ Name | Description
 	* K-means
 	* DBSCAN
 	* [Hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/)
+-->
 
 -----
 
