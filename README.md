@@ -660,8 +660,8 @@ Name | Description
 		* Data collection for IoT
 		* Data science software as a service (SaaS) engines - ex. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 		* Machine learning with computer clusters: [Spark](http://spark.apache.org/) with [MLlib](http://spark.apache.org/mllib/)
-* Exercise - top takeaways and top surprises [(form)](https://docs.google.com/forms/d/1SFcABW4tuY9coRxlKevO2HtvXGkJbmO5R4UY07uveI8)
 * Additional models and variants - Exercise
+* Exercise - top takeaways and top surprises [(form)](https://docs.google.com/forms/d/1SFcABW4tuY9coRxlKevO2HtvXGkJbmO5R4UY07uveI8)
 * Where to go from here data scientists!
 	* [Data science skills hierarchy](https://docs.google.com/spreadsheets/d/1RAcC44o3crC2ZeCmtrELibV1VyEB5ecnBHZKXXXZI6M)
 * Next steps in your journey
