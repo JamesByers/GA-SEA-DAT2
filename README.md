@@ -21,7 +21,7 @@ Tuesday | Thursday
 4/26: [L13 Natural Language Processing](#nlp1) | 4/28: [L14 Dimensionality reduction](#reduction), **Draft Paper Due**
 5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
 5/10: [L17 Modeling with Time Series Data I](#time1), **Peer Review Due** | 5/12 [L18 Modeling with Time Series Data II](#time2)
-5/17: L19 Where to go next + bonus topics | 5/19: **Final Project Presentations**
+5/17: [L19 Where to go next + bonus topics](#19_topics) | 5/19: **Final Project Presentations**
  | 
  | 
  | 
@@ -633,7 +633,70 @@ Name | Description
 ### Class 18: Modeling with Time Series Data II
 
 * Time series intro ([slides](https://docs.google.com/presentation/d/12lBrOxtqhQRJ85PdkTr4qgcFy0DwUGzVy6bvdA5qyOs/edit?usp=sharing))
-* Exercises [(notebook)](notebooks/18_TS_starter-code.ipynb)
+* Time series modeling with statsmodels [(notebook)](notebooks/18_timeseries_modeling.ipynb)
+* Exercise with Wal-mart sales data [(notebook)](notebooks/18_TS_starter-code.ipynb)
+
+-----
+
+<a name="19_topics"></a>
+### Class 19: Bonus Topics
+
+**Topics/Highlights**
+
+* Using a multi-user git repository - [Exercise](https://github.com/kevinmcalear/mergefest)
+* Trends
+	* Data storage, Hadoop and MapReduce
+		* SQL databases
+		* NoSQL vs. SQL databases ([comparison](http://core0.staticworld.net/images/article/2014/10/sql-nosql-b-100527236-large.idge.gif))
+		* Distributed files [(diagram)](https://www.google.com/search?q=hadoop+storage+impala+diagram&source=lnms&tbm=isch)
+	* AWS, Azure and Google,  data and data science engine services
+		* SQL Databases in the cloud
+			* AWS Redshift, Oracle, SQL Server
+			* Azure SQL Server
+			* Google BigQuery
+		* NoSQL Databases
+			* AWS Mongo, DynamoDB
+			* Azure
+		* Data collection for IoT
+		* Data science software as a service (SaaS) engines - ex. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+		* Machine learning with computer clusters: [Spark](http://spark.apache.org/) with [MLlib](http://spark.apache.org/mllib/)
+* Additional models and variants - Exercise
+* Top takeaways and top surprises - Exercise [(form)](https://docs.google.com/forms/d/1SFcABW4tuY9coRxlKevO2HtvXGkJbmO5R4UY07uveI8)
+* Where to go from here data scientists!
+	* [Data science skills hierarchy](https://docs.google.com/spreadsheets/d/1RAcC44o3crC2ZeCmtrELibV1VyEB5ecnBHZKXXXZI6M)
+* Next steps in your journey
+	* [Exercise: your objectives and next steps](https://docs.google.com/spreadsheets/d/13z-eUjMtsSyO6B51iVzoEwmfpO-IhymoYDIVvgTious/edit?usp=sharing)
+
+**Additional models and variants (in blue)**
+<!--
+* Classifiers
+	* Naïve Bayes
+	* KNN
+	* SVC
+	* [SDG](http://scikit-learn.org/stable/modules/sgd.html)
+	* Decision Trees
+	* Neural Networks
+	* Ensemble methods [(scikit-learn pqge)](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble)
+		* Bagging
+		* Boosting
+			* [sklearn.ensemble.AdaBoostRegressor](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html)
+			* Beware, even one misclassified label in training data can result in poor prediction
+		* Random Forests
+* Regression
+	* Linear regression
+	* [Ridge regression](http://scikit-learn.org/stable/modules/linear_model.html) 
+	* [Lasso](http://scikit-learn.org/stable/modules/linear_model.html)
+	* Logistic Regression
+	* [Linear regressor with polynomial preprocessing](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
+	* [SVR (choose from several kernels)](http://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
+	* [SDG regression](http://scikit-learn.org/stable/modules/sgd.html)
+	* Ensemble methods
+		* [Random Forest regression](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+* Clustering
+	* K-means
+	* DBSCAN
+	* [Hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/)
+-->
 
 -----
 
