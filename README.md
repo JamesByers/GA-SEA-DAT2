@@ -658,7 +658,8 @@ Name | Description
 			* AWS Mongo, DynamoDB
 			* Azure
 		* Data collection for IoT
-		* Data science engines - ex. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+		* Data science software as a service (SaaS) engines - ex. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+		* Machine learning with computer clusters [(Spark with MLlib)](http://spark.apache.org/mllib/)
 * Exercise - top takeaways and top surprises
 * Where to go from here data scientists!
 	* [Data science skills hierarchy](https://docs.google.com/spreadsheets/d/1RAcC44o3crC2ZeCmtrELibV1VyEB5ecnBHZKXXXZI6M)
