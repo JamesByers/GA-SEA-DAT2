@@ -402,7 +402,7 @@ Name | Description
 * Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_confusion_matrix.ipynb))
 
 **Homework:**
-* Work through the code samples in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](notebooks/09_confusion_matrix.ipynb) to see an enample of turning a multi value feature into a 
+* Work through the code sample in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](notebooks/09_confusion_matrix.ipynb) to see an example of changing a threshhold to get the desired behavior in the confusion matrix.
 * If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
 * Video/reading assignment on [ROC curves and AUC](homework/10_roc_auc.md)
 * Video/reading assignment on [cross-validation](homework/10_cross_validation.md)
