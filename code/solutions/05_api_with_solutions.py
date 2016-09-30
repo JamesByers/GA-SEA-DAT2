@@ -15,7 +15,8 @@ How to interact with a REST API:
 
 # read IMDb data into a DataFrame: we want a year column!
 import pandas as pd
-movies = pd.read_csv('../data/imdb_1000.csv')
+path = "C:/Users/byerj023/Documents/GA/GA_Data_Science_course/DS-SEA-3/data/"
+movies = pd.read_csv(path + 'imdb_1000.csv')
 movies.head()
 
 # use requests library to interact with a URL
@@ -67,6 +68,8 @@ assert(len(top_movies) == len(years))
 
 # save that list as a new column
 top_movies['year'] = years
+
+top_movies.head()
 
 '''
 Bonus content: Updating the DataFrame as part of a loop
